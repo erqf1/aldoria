@@ -1,0 +1,10 @@
+{
+  "id": "glutschmiede",
+  "name": "Die Glutschmiede",
+  "description": "Unter dem Vulkan schmiedet der Golem Ignatz Waffen für die Kobolde. Die Windstiefel helfen bei den Lavaströmen.",
+  "start_room": "gs01_tor",
+  "start_door": "",
+  "final_room": "gs11_ende",
+  "outro": "Der Schmiedegolem liegt in Trümmern. Über dir ragt ein Turm in die Wolken: der Himmelsturm.",
+  "next_dungeon": "himmelsturm"
+}

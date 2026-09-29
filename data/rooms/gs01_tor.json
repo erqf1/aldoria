@@ -1,0 +1,42 @@
+{
+  "id": "gs01_tor",
+  "name": "Das Schmiedetor",
+  "type": "hub",
+  "environment": {
+    "sun_direction": [-0.35, -0.75, -0.4],
+    "sun_color": [1.0, 0.72, 0.5],
+    "sky_ambient": [0.4, 0.3, 0.3],
+    "ground_ambient": [0.28, 0.16, 0.12],
+    "fog_color": [0.36, 0.2, 0.16],
+    "sky_top_color": [0.22, 0.14, 0.2],
+    "fog_start": 24,
+    "fog_end": 90
+  },
+  "shell": { "size": [26, 24], "height": 7, "color": [78, 64, 68], "cap_color": [190, 84, 36] },
+  "ground": { "color": [60, 48, 48] },
+  "player_spawn": [0, 0, 6],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "sealed", "color": [60, 56, 60] },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "open", "target": "gs02_lavagang:s" }
+  ],
+  "checkpoint": { "position": [-9, 0, 6] },
+  "enemies": [
+    { "type": "ember_imp", "position": [-5, 0, -4] },
+    { "type": "ember_imp", "position": [5, 0, -4] }
+  ],
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [8, 0.6, 5] },
+    { "id": "shard_b", "type": "shard", "position": [-8, 0.6, -6] }
+  ],
+  "decor": [
+    { "kind": "brazier", "position": [2.8, 0, -10.6] },
+    { "kind": "brazier", "position": [-2.8, 0, -10.6] },
+    { "kind": "brazier", "position": [2.8, 0, 10.6] },
+    { "kind": "brazier", "position": [-2.8, 0, 10.6] }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 26, "seed": 301, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "rock", "count": 16, "seed": 302, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "obsidian", "count": 7, "seed": 303, "region": "inside", "min_scale": 0.7, "max_scale": 1.2 }
+  ]
+}

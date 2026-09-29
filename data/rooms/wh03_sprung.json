@@ -1,0 +1,50 @@
+{
+  "id": "wh03_sprung",
+  "name": "Der Wurzelabgrund",
+  "type": "platform",
+  "environment": {
+    "sun_direction": [-0.3, -0.9, -0.3],
+    "sun_color": [0.8, 0.86, 0.8],
+    "sky_ambient": [0.28, 0.4, 0.48],
+    "ground_ambient": [0.16, 0.2, 0.2],
+    "fog_color": [0.16, 0.26, 0.3],
+    "sky_top_color": [0.12, 0.24, 0.3],
+    "fog_start": 50,
+    "fog_end": 140
+  },
+  "shell": { "size": [22, 44], "height": 9, "depth": 16, "color": [82, 98, 88] },
+  "ground": { "enabled": false, "size": [24, 46] },
+  "kill_y": -12,
+  "player_spawn": [0, 0, 19.5],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "wh02_gang:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "open", "target": "wh04_halle:s" }
+  ],
+  "boxes": [
+    { "tag": "island", "center": [0, -0.5, 17], "size": [10, 1, 8], "color": [110, 112, 100] },
+    { "tag": "island", "center": [0, -0.5, 8.5], "size": [6, 1, 3], "color": [116, 118, 104] },
+    { "tag": "island", "center": [0, -0.5, -6.5], "size": [6, 1, 3], "color": [116, 118, 104] },
+    { "tag": "island", "center": [0, -0.5, -19], "size": [10, 1, 6], "color": [110, 112, 100] },
+    { "tag": "island_side", "center": [-8, -0.5, 3], "size": [3, 1, 3], "color": [122, 122, 106] },
+    { "tag": "island_side", "center": [8, -0.5, -6.5], "size": [3, 1, 3], "color": [122, 122, 106] }
+  ],
+  "platforms": [
+    { "id": "mover", "kind": "moving", "size": [4, 0.6, 4], "path": [[0, -0.3, 3], [0, -0.3, -1]], "speed": 2.4, "pause": 0.8, "color": [140, 130, 104] },
+    { "id": "crumble1", "kind": "crumble", "size": [3, 0.6, 3], "center": [0, -0.3, -11], "crumble_delay": 0.7, "respawn": 3 },
+    { "id": "crumble2", "kind": "crumble", "size": [3, 0.6, 3], "center": [0, -0.3, -15], "crumble_delay": 0.7, "respawn": 3 }
+  ],
+  "pickups": [
+    { "id": "shard_west", "type": "shard", "position": [-8, 0.6, 3] },
+    { "id": "shard_east", "type": "shard", "position": [8, 0.6, -6.5] },
+    { "id": "key1", "type": "small_key", "position": [0, 0.7, -19] }
+  ],
+  "enemies": [
+    { "type": "imp_archer", "position": [2, 0, -20] }
+  ],
+  "decor": [
+    { "kind": "torch", "position": [3, 0, 21] },
+    { "kind": "torch", "position": [-3, 0, 21] },
+    { "kind": "torch", "position": [3, 0, -21] },
+    { "kind": "torch", "position": [-3, 0, -21] }
+  ]
+}

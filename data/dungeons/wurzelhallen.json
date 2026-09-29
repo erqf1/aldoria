@@ -1,0 +1,10 @@
+{
+  "id": "wurzelhallen",
+  "name": "Die Wurzelhallen",
+  "description": "Ein uralter Bau unter den Wurzeln des Weltenbaums, in dem der Kobold-König haust.",
+  "start_room": "wh01_pforte",
+  "start_door": "",
+  "final_room": "wh13_ende",
+  "next_dungeon": "glutschmiede",
+  "outro": "Der Kobold-König ist gefallen. Aus der Tiefe glüht es: Die Schmiede der Kobolde wartet."
+}

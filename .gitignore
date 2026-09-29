@@ -1,0 +1,27 @@
+# Build-Ausgaben (aus CMake/Ninja erzeugt, nicht versioniert)
+/build/
+/build-*/
+/dist/
+/compiled/
+/legacy_2d/build/
+
+# Von Testläufen erzeugte Screenshots/Logs/Spielstände
+/build/shots*/
+/build/fuzz/
+/build/flows/
+*.log
+saves/
+
+# Claude Code (Harness-interne Dateien dieser Session)
+.claude/
+
+# Editor/OS
+.vs/
+.vscode/
+*.user
+Thumbs.db
+.DS_Store
+
+# Python-Cache (Texturgenerator, Hilfsskripte)
+__pycache__/
+*.pyc

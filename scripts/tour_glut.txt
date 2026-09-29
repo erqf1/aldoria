@@ -1,0 +1,51 @@
+# Rundgang durch die Glutschmiede (Dungeon 2)
+wait 0.5
+new_game
+wait 0.8
+god on
+debug off
+room gs01_tor
+cam 0 20 20  0 0 -3  62
+wait 0.4
+shot gs_01_tor
+room gs02_lavagang
+cam 0 26 30  0 0 -2  62
+wait 0.4
+shot gs_02_lavagang
+room gs03_kessel
+cam 0 24 22  0 0 -3  62
+wait 0.4
+shot gs_03_kessel
+room gs04_arena1
+cam 0 26 24  0 0 -3  62
+wait 0.4
+shot gs_04_arena1
+room gs05_rast1
+cam 0 16 16  0 0 -3  62
+wait 0.4
+shot gs_05_rast1
+room gs06_schmiedepfad
+cam 0 30 38  0 -2 -2  62
+wait 0.4
+shot gs_06_schmiedepfad
+room gs07_arena2
+cam 0 28 26  0 0 -3  62
+wait 0.4
+shot gs_07_arena2
+room gs08_rast2
+cam 0 16 16  0 0 -3  62
+wait 0.4
+shot gs_08_rast2
+room gs09_vorhalle
+cam 0 22 22  0 0 -3  62
+wait 0.4
+shot gs_09_vorhalle
+room gs10_kern
+cam 0 34 30  0 0 -6  62
+wait 0.8
+shot gs_10_kern
+room gs11_ende
+cam 0 16 16  0 0 -3  62
+wait 0.4
+shot gs_11_ende
+quit

@@ -1,0 +1,17 @@
+# Lava mit aufsteigenden Funken und roter Rand bei Treffer / niedrigem Leben
+wait 0.4
+new_game
+wait 0.8
+god on
+room gs02_lavagang s
+wait 0.3
+teleport 0 0 8 3.14159
+wait 1.5
+shot lava_embers
+god off
+hurt 75
+wait 0.2
+shot lava_hurt
+wait 1.5
+shot lava_lowhp
+quit

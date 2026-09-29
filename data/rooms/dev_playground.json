@@ -1,0 +1,51 @@
+{
+  "id": "dev_playground",
+  "name": "Testebene",
+  "environment": {
+    "sun_direction": [-0.45, -0.8, -0.35],
+    "sun_color": [0.92, 0.84, 0.68],
+    "sky_ambient": [0.33, 0.42, 0.56],
+    "ground_ambient": [0.22, 0.19, 0.15],
+    "fog_color": [0.66, 0.76, 0.86],
+    "sky_top_color": [0.34, 0.54, 0.86],
+    "fog_start": 45,
+    "fog_end": 150
+  },
+  "player_spawn": [0, 0, 12],
+  "ground": { "size": [120, 120], "color": [92, 142, 82] },
+  "boxes": [
+    { "tag": "wall", "center": [0, 1.0, -6], "size": [10, 2.0, 1], "color": [158, 140, 118] },
+    { "tag": "pillar", "center": [-6, 2.0, -6], "size": [1.2, 4.0, 1.2], "color": [132, 124, 138] },
+    { "tag": "pillar", "center": [6, 2.0, -6], "size": [1.2, 4.0, 1.2], "color": [132, 124, 138] },
+
+    { "tag": "crate", "center": [-4.0, 0.5, 2], "size": [1, 1, 1], "color": [176, 128, 78] },
+    { "tag": "crate", "center": [-5.1, 0.5, 2], "size": [1, 1, 1], "color": [170, 122, 74] },
+    { "tag": "crate", "center": [-4.55, 1.5, 2], "size": [1, 1, 1], "color": [184, 136, 84] },
+
+    { "tag": "stair", "center": [10, 0.175, 0.0], "size": [4, 0.35, 1.5], "color": [150, 146, 156] },
+    { "tag": "stair", "center": [10, 0.350, -1.5], "size": [4, 0.70, 1.5], "color": [154, 150, 160] },
+    { "tag": "stair", "center": [10, 0.525, -3.0], "size": [4, 1.05, 1.5], "color": [158, 154, 164] },
+    { "tag": "stair", "center": [10, 0.700, -4.5], "size": [4, 1.40, 1.5], "color": [162, 158, 168] },
+    { "tag": "stair", "center": [10, 0.875, -6.0], "size": [4, 1.75, 1.5], "color": [166, 162, 172] },
+    { "tag": "platform", "center": [10, 0.875, -9.75], "size": [4, 1.75, 6], "color": [172, 168, 178] },
+
+    { "tag": "landmark", "center": [-22, 8.0, -34], "size": [7, 16.0, 7], "color": [120, 116, 134] },
+    { "tag": "landmark", "center": [-22, 17.0, -34], "size": [4, 2.0, 4], "color": [196, 170, 96] },
+    { "tag": "ruin", "center": [24, 2.5, -20], "size": [1.5, 5.0, 8], "color": [140, 130, 120] },
+    { "tag": "ruin", "center": [30, 1.5, -20], "size": [1.5, 3.0, 8], "color": [146, 136, 126] },
+
+    { "tag": "block", "center": [-12, 0.75, 8], "size": [3, 1.5, 3], "color": [128, 150, 120] },
+    { "tag": "block", "center": [-16, 1.5, 4], "size": [3, 3.0, 3], "color": [120, 144, 116] },
+
+    { "tag": "platform", "center": [-9, 0.75, 14], "size": [6, 1.5, 4], "color": [150, 138, 118] }
+  ],
+  "ramps": [
+    { "center": [-15, 0.75, 14], "size": [6, 1.5, 4], "rise": "+x", "color": [170, 152, 122] }
+  ],
+  "enemies": [
+    { "type": "forest_imp", "position": [-3, 0, -14] },
+    { "type": "forest_imp", "position": [4, 0, -17] },
+    { "type": "forest_imp", "position": [0, 0, -22] },
+    { "type": "forest_imp", "position": [-4, 0, 24] }
+  ]
+}

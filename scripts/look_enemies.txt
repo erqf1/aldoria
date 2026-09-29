@@ -1,0 +1,35 @@
+# Alle Gegnerarten nebeneinander
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+room dev_playground
+wait 0.5
+kill_all
+teleport 0 0 12 3.14159
+cam 0 3.2 9 0 1.0 0 58
+spawn forest_imp -6 0
+spawn imp_archer -3 0
+spawn leaper 0 0
+spawn brute 3.5 0
+spawn kobold_king 30 30
+wait 0.3
+shot en1
+wait 1.2
+shot en2
+kill_all
+spawn ember_imp -6 0
+spawn ember_archer -3 0
+spawn cinder_leaper 0 0
+spawn magma_brute 3.5 0
+wait 1.5
+shot en3
+kill_all
+spawn wind_imp -6 0
+spawn storm_archer -3 0
+spawn gale_leaper 0 0
+spawn gale_brute 3.5 0
+wait 1.5
+shot en4
+quit

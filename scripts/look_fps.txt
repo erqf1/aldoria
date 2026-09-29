@@ -1,0 +1,15 @@
+wait 0.4
+new_game
+wait 0.8
+debug on
+god on
+room gs06_schmiedepfad s
+wait 1.5
+shot fps_gs06
+room gs10_kern s
+wait 1.5
+shot fps_gs10
+room wh05_arena1 s
+wait 1.5
+shot fps_wh05
+quit

@@ -1,0 +1,22 @@
+{
+  "id": "ember_archer",
+  "name": "Glut-Schütze",
+  "behavior": "ranged",
+  "max_health": 30,
+  "radius": 0.42,
+  "height": 1.05,
+  "chase_speed": 3.5,
+  "sight_range": 17,
+  "lose_range": 25,
+  "preferred_min": 6,
+  "preferred_max": 10,
+  "shoot_cooldown": 2.1,
+  "telegraph": 0.7,
+  "attack_recovery": 0.55,
+  "projectile_speed": 14,
+  "damage": 12,
+  "stagger": 0.3,
+  "interruptible": true,
+  "color": [216, 84, 60],
+  "health_drop_chance": 0.16
+}

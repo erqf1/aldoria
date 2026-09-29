@@ -1,0 +1,38 @@
+{
+  "id": "gs08_rast2",
+  "name": "Der Schlackenhof",
+  "type": "rest",
+  "environment": {
+    "sun_direction": [-0.3, -0.75, -0.3],
+    "sun_color": [1.0, 0.78, 0.55],
+    "sky_ambient": [0.44, 0.34, 0.34],
+    "ground_ambient": [0.3, 0.18, 0.14],
+    "fog_color": [0.42, 0.26, 0.2],
+    "sky_top_color": [0.26, 0.16, 0.22],
+    "fog_start": 24,
+    "fog_end": 90
+  },
+  "shell": { "size": [20, 20], "height": 7, "color": [80, 66, 68], "cap_color": [190, 84, 36] },
+  "ground": { "color": [64, 50, 48] },
+  "player_spawn": [0, 0, 6],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "gs07_arena2:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "open", "target": "gs09_vorhalle:s" }
+  ],
+  "checkpoint": { "position": [0, 0, -3] },
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [6, 0.6, 2] },
+    { "id": "shard_b", "type": "shard", "position": [-6, 0.6, 2] },
+    { "id": "shard_c", "type": "shard", "position": [0, 0.6, -7] }
+  ],
+  "decor": [
+    { "kind": "brazier", "position": [3.5, 0, -1.5] },
+    { "kind": "brazier", "position": [-3.5, 0, -1.5] },
+    { "kind": "obsidian", "position": [-7, 0, -6], "scale": 1.3 },
+    { "kind": "obsidian", "position": [7, 0, -6], "scale": 1.3 }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 26, "seed": 361, "margin": 15, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "rock", "count": 12, "seed": 362, "margin": 15, "min_scale": 1.0, "max_scale": 2.0 }
+  ]
+}

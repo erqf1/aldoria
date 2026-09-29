@@ -1,0 +1,6 @@
+# Einheitliche Zeilenenden im Repo (LF), damit Shell-Skripte auf Linux funktionieren,
+# egal welche core.autocrlf-Einstellung der Checkout hat.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary

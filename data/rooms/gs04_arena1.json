@@ -1,0 +1,47 @@
+{
+  "id": "gs04_arena1",
+  "name": "Die Amboss-Arena",
+  "type": "arena",
+  "environment": {
+    "sun_direction": [-0.35, -0.75, -0.4],
+    "sun_color": [1.0, 0.7, 0.46],
+    "sky_ambient": [0.4, 0.3, 0.3],
+    "ground_ambient": [0.28, 0.16, 0.12],
+    "fog_color": [0.38, 0.2, 0.15],
+    "sky_top_color": [0.22, 0.14, 0.2],
+    "fog_start": 24,
+    "fog_end": 88
+  },
+  "shell": { "size": [32, 32], "height": 8, "color": [76, 62, 64], "cap_color": [190, 84, 36] },
+  "ground": { "color": [62, 48, 46] },
+  "player_spawn": [0, 0, 13],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "arena", "target": "gs03_kessel:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "arena", "target": "gs05_rast1:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-8, 2, -3], "size": [1.6, 4, 1.6], "color": [112, 92, 94] },
+    { "tag": "pillar", "center": [8, 2, -3], "size": [1.6, 4, 1.6], "color": [112, 92, 94] },
+    { "tag": "pillar", "center": [-8, 2, 6], "size": [1.6, 4, 1.6], "color": [112, 92, 94] },
+    { "tag": "pillar", "center": [8, 2, 6], "size": [1.6, 4, 1.6], "color": [112, 92, 94] }
+  ],
+  "encounter": {
+    "waves": [
+      [ { "type": "ember_imp", "count": 3 }, { "type": "ember_archer", "count": 1 } ],
+      [ { "type": "cinder_leaper", "count": 2 }, { "type": "ember_imp", "count": 2 } ],
+      [ { "type": "magma_brute", "count": 1 }, { "type": "ember_archer", "count": 2 }, { "type": "ember_imp", "count": 1 } ]
+    ],
+    "spawn_points": [ [-11, 0, -11], [11, 0, -11], [0, 0, -13], [-12, 0, 2], [12, 0, 2] ],
+    "reward": "segen"
+  },
+  "decor": [
+    { "kind": "brazier", "position": [-14.2, 0, -8] },
+    { "kind": "brazier", "position": [14.2, 0, -8] },
+    { "kind": "brazier", "position": [-14.2, 0, 8] },
+    { "kind": "brazier", "position": [14.2, 0, 8] }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 30, "seed": 331, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "rock", "count": 14, "seed": 332, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 }
+  ]
+}

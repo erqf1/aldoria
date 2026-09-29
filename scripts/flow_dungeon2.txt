@@ -1,0 +1,46 @@
+# Ablauf: Dungeon 1 abschließen, weiter zu Dungeon 2, Räume der Glutschmiede durchlaufen, speichern, weiterspielen
+wait 0.4
+new_game
+wait 1.0
+god on
+give dash
+room wh13_ende
+wait 1.0
+shot d2_complete
+press confirm
+wait 1.5
+status
+shot d2_start
+hold forward 2
+wait 0.5
+status
+# Räume nacheinander über die Türen betreten
+room gs01_tor n
+wait 1.0
+hold forward 1.2
+wait 1.5
+shot d2_lavagang_start
+room gs04_arena1 s
+wait 0.8
+shot d2_arena1
+room gs10_kern s
+wait 1.0
+shot d2_boss_arrival
+teleport 0 0 4 3.14159
+wait 2.5
+shot d2_boss_intro
+wait 3
+shot d2_boss_fight
+boss_hp 0.5
+wait 3
+shot d2_boss_p2
+boss_hp 0.25
+wait 3
+shot d2_boss_p3
+wait 4
+shot d2_boss_p3b
+kill_all
+wait 1.5
+shot d2_boss_dead
+save
+quit

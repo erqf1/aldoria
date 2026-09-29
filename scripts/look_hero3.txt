@@ -1,0 +1,31 @@
+# Held nah: Stand (Seite, Ruecken, Vorderseite), Lauf, Sprung
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+teleport 0 0 6 3.14159
+cam 3.0 1.25 6 0 1.0 6 45
+wait 1.5
+shot h3_side_stand
+cam 0 1.5 8.4 0 1.0 6 45
+shot h3_back_stand
+cam 0.3 1.45 3.5 0 1.0 6 45
+shot h3_front_stand
+cam 3.4 1.3 6.2 0 1.0 6 50
+teleport 0 0 7.8 3.14159
+wait 0.3
+hold forward+sprint 0.42
+shot h3_side_run
+cam 0.5 1.7 8.6 0 1.0 5.4 55
+teleport 0 0 7.6 3.14159
+wait 0.3
+hold forward+sprint 0.45
+shot h3_back_run
+cam 3.4 1.3 6.2 0 1.0 6 50
+teleport 0 0 6.6 3.14159
+wait 0.4
+press jump
+wait 0.3
+shot h3_jump
+quit

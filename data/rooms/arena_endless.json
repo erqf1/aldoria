@@ -1,0 +1,40 @@
+{
+  "id": "arena_endless",
+  "name": "Die Endlose Arena",
+  "type": "arena",
+  "environment": {
+    "sun_direction": [-0.35, -0.8, -0.35],
+    "sun_color": [0.96, 0.8, 0.6],
+    "sky_ambient": [0.36, 0.38, 0.44],
+    "ground_ambient": [0.22, 0.18, 0.15],
+    "fog_color": [0.5, 0.44, 0.4],
+    "sky_top_color": [0.3, 0.34, 0.46],
+    "fog_start": 28,
+    "fog_end": 96
+  },
+  "shell": { "size": [44, 44], "height": 9, "color": [112, 100, 92] },
+  "ground": { "color": [88, 76, 66] },
+  "player_spawn": [0, 0, 8],
+  "boxes": [
+    { "tag": "pillar", "center": [-9, 2.5, -4], "size": [1.8, 5, 1.8], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [9, 2.5, -4], "size": [1.8, 5, 1.8], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [-9, 2.5, 8], "size": [1.8, 5, 1.8], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [9, 2.5, 8], "size": [1.8, 5, 1.8], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [0, 2.5, -12], "size": [1.8, 5, 1.8], "color": [130, 120, 112] },
+    { "tag": "block", "center": [-15, 0.6, 2], "size": [3, 1.2, 3], "color": [122, 114, 104] },
+    { "tag": "block", "center": [15, 0.6, 2], "size": [3, 1.2, 3], "color": [122, 114, 104] }
+  ],
+  "arena_spawn_points": [ [-15, 0, -15], [15, 0, -15], [0, 0, -17], [-18, 0, 8], [18, 0, 8], [-8, 0, -15], [8, 0, -15] ],
+  "decor": [
+    { "kind": "torch", "position": [-20.2, 0, -10] },
+    { "kind": "torch", "position": [20.2, 0, -10] },
+    { "kind": "torch", "position": [-20.2, 0, 10] },
+    { "kind": "torch", "position": [20.2, 0, 10] },
+    { "kind": "torch", "position": [-6, 0, 20.2] },
+    { "kind": "torch", "position": [6, 0, 20.2] }
+  ],
+  "scatter": [
+    { "kind": "tree", "count": 40, "seed": 201, "margin": 18 },
+    { "kind": "pine", "count": 26, "seed": 202, "margin": 20 }
+  ]
+}

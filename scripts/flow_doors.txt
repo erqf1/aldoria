@@ -1,0 +1,28 @@
+# Ablauf 1: Raumwechsel durch Türen, Kristall und Schalter-Tür
+wait 0.4
+new_game
+wait 1.2
+god on
+status
+# Raum 1 nach Norden durch die offene Tür laufen (Kamera blickt nach Norden)
+hold forward 5
+wait 1.5
+status
+shot f1_gang_arrival
+# Im Kristallgang: von der Rampe zur Plattform links hinten, Kristall schlagen
+kill_all
+teleport -8 0 -1.5 3.14159
+wait 0.3
+hold forward 1.2
+status
+press attack
+wait 0.8
+status
+shot f1_crystal
+# Tür sollte nun offen sein: nach Norden laufen
+teleport 0 0 -6 3.14159
+hold forward 2.5
+wait 1.5
+status
+shot f1_sprung_arrival
+quit

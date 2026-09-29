@@ -1,0 +1,9 @@
+{
+  "id": "himmelsturm",
+  "name": "Der Himmelsturm",
+  "description": "Hoch über den Wolken haust der Sturmwächter. Die Sturmfedern tragen dich über die Lücken.",
+  "outro": "Der Sturm legt sich. Von der Turmspitze siehst du das ganze Land. Weitere Abenteuer folgen.",
+  "start_room": "ht01_fuss",
+  "start_door": "",
+  "final_room": "ht13_ende"
+}

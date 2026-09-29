@@ -1,0 +1,27 @@
+# Maintainer: erqf1
+pkgname=aldoria
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="3D-Dungeon-Action-Adventure (raylib, drei Dungeons, Endlos-Arena, Boss-Rush)"
+arch=('x86_64')
+url="https://github.com/erqf1/aldoria"
+license=('Apache-2.0')
+depends=('glibc' 'gcc-libs' 'libx11' 'libxrandr' 'libxinerama' 'libxcursor' 'libxi' 'libxext'
+         'libxfixes' 'libxrender' 'mesa' 'libglvnd' 'alsa-lib')
+makedepends=('cmake' 'ninja' 'git')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/erqf1/aldoria/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('e6a5fbc4c33d69dd6c4fcbf6f6ac2ac4c26a4a51e6bc3d1d6e2f7c9a2f8e1a01')
+
+build() {
+    cd "$pkgname-$pkgver"
+    cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DALDORIA_BUILD_TESTS=OFF \
+        -DCMAKE_INSTALL_PREFIX=/opt/aldoria
+    cmake --build build
+}
+
+package() {
+    cd "$pkgname-$pkgver"
+    DESTDIR="$pkgdir" cmake --install build
+    install -Dm755 "$srcdir/$pkgname-$pkgver/packaging/linux/aldoria-wrapper.sh" \
+        "$pkgdir/usr/bin/aldoria"
+}

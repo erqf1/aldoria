@@ -1,0 +1,47 @@
+{
+  "id": "gs03b_essenkammer",
+  "name": "Die Essenkammer",
+  "type": "treasure",
+  "environment": {
+    "sun_direction": [-0.3, -0.75, -0.3],
+    "sun_color": [1.0, 0.76, 0.52],
+    "sky_ambient": [0.44, 0.32, 0.32],
+    "ground_ambient": [0.32, 0.18, 0.13],
+    "fog_color": [0.4, 0.22, 0.16],
+    "sky_top_color": [0.24, 0.14, 0.2],
+    "fog_start": 20,
+    "fog_end": 80
+  },
+  "shell": { "size": [18, 18], "height": 7, "color": [80, 64, 66], "cap_color": [190, 84, 36] },
+  "ground": { "color": [62, 48, 46] },
+  "player_spawn": [6, 0, 0],
+  "player_yaw": -1.5708,
+  "doors": [
+    { "id": "e", "side": "east", "x": 0, "width": 4, "kind": "open", "target": "gs03_kessel:w" }
+  ],
+  "boxes": [
+    { "tag": "dais", "center": [-5, 0.3, 0], "size": [4, 0.6, 4], "color": [122, 100, 100] },
+    { "tag": "dais_step", "center": [-2.6, 0.15, 0], "size": [1.2, 0.3, 2.4], "color": [116, 94, 94] }
+  ],
+  "enemies": [
+    { "type": "magma_brute", "position": [-1, 0, -5] },
+    { "type": "ember_imp", "position": [-1, 0, 5] }
+  ],
+  "pickups": [
+    { "id": "heart_essen", "type": "heart", "position": [-5, 1.1, 0] },
+    { "id": "shard_a", "type": "shard", "position": [-6.5, 0.9, -6] },
+    { "id": "shard_b", "type": "shard", "position": [-6.5, 0.9, 6] },
+    { "id": "shard_c", "type": "shard", "position": [3, 0.6, -6] }
+  ],
+  "decor": [
+    { "kind": "brazier", "position": [-8.2, 0, -3] },
+    { "kind": "brazier", "position": [-8.2, 0, 3] },
+    { "kind": "crystal_cluster", "position": [-7.5, 0, -7.5], "scale": 1.2 },
+    { "kind": "crystal_cluster", "position": [-7.5, 0, 7.5], "scale": 1.2 }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 24, "seed": 333, "margin": 14, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "rock", "count": 10, "seed": 334, "margin": 14, "min_scale": 1.0, "max_scale": 2.0 }
+  ]
+}
+

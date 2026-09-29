@@ -1,0 +1,8 @@
+wait 0.4
+new_game
+wait 0.9
+shot intro_wh
+next_dungeon
+wait 1.2
+shot intro_gs
+quit

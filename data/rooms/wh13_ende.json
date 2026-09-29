@@ -1,0 +1,33 @@
+{
+  "id": "wh13_ende",
+  "name": "Der Sonnenhof",
+  "type": "end",
+  "environment": {
+    "sun_direction": [-0.3, -0.85, -0.2],
+    "sun_color": [1.0, 0.92, 0.7],
+    "sky_ambient": [0.5, 0.6, 0.66],
+    "ground_ambient": [0.3, 0.28, 0.2],
+    "fog_color": [0.66, 0.78, 0.76],
+    "sky_top_color": [0.36, 0.6, 0.8],
+    "fog_start": 30,
+    "fog_end": 110
+  },
+  "shell": { "size": [20, 20], "height": 6, "color": [124, 132, 112] },
+  "ground": { "color": [88, 130, 78] },
+  "player_spawn": [0, 0, 6],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "wh12_thron:exit" }
+  ],
+  "checkpoint": { "position": [0, 0, -3] },
+  "decor": [
+    { "kind": "torch", "position": [3.5, 0, -1.5] },
+    { "kind": "torch", "position": [-3.5, 0, -1.5] },
+    { "kind": "bush", "position": [-7, 0, -6], "scale": 1.3 },
+    { "kind": "bush", "position": [7, 0, -6], "scale": 1.3 }
+  ],
+  "scatter": [
+    { "kind": "tree", "count": 40, "seed": 131, "margin": 16 },
+    { "kind": "mushroom", "count": 16, "seed": 132, "region": "inside", "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "bush", "count": 10, "seed": 133, "region": "inside" }
+  ]
+}

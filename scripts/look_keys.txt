@@ -1,0 +1,40 @@
+# Einstellungen: Hauptseite, Tastenliste, Tasten einer Aktion
+wait 0.5
+settings
+wait 0.3
+shot k1_settings
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+shot k2_main_keys_row
+press confirm
+wait 0.3
+shot k3_keylist
+press confirm
+wait 0.3
+shot k4_action
+press cancel
+wait 0.2
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+press down
+wait 0.1
+shot k5_keylist_scrolled
+quit

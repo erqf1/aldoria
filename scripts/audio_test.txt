@@ -1,0 +1,35 @@
+# Tonprüfung (mit --unmute --volume 0.05 starten): viele Ereignisse auslösen, damit alle Klangwege laufen
+wait 0.4
+new_game
+wait 1.0
+press jump
+wait 0.5
+press attack
+wait 0.3
+press attack
+wait 0.4
+press dodge
+wait 0.6
+press secondary
+wait 0.8
+give dash
+press dash
+wait 0.6
+room wh05_arena1
+wait 4
+kill_all
+wait 3.5
+kill_all
+wait 3.5
+kill_all
+wait 2
+press confirm
+wait 1
+room wh12_thron
+teleport 0 0 4 3.14159
+wait 3
+boss_hp 0.6
+wait 3
+kill_all
+wait 2
+quit

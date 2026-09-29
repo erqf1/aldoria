@@ -1,0 +1,31 @@
+wait 0.4
+new_game
+wait 1.0
+god on
+room wh08_wind
+kill_all
+give dash
+wait 0.5
+teleport 0 0 19.2 3.14159
+wait 0.3
+hold forward+sprint 0.22
+status
+press jump
+hold forward+sprint 0.1
+status
+hold forward+sprint 0.1
+status
+press dash
+hold forward+sprint 0.05
+status
+hold forward+sprint 0.1
+status
+hold forward+sprint 0.1
+status
+hold forward+sprint 0.1
+status
+hold forward+sprint 0.1
+status
+hold forward+sprint 0.2
+status
+quit

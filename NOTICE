@@ -1,0 +1,13 @@
+Aldoria
+Copyright 2026 erqf1
+
+This product is licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+This product bundles third-party components under their own licenses:
+
+- raylib (zlib/libpng license) - https://github.com/raysan5/raylib
+- nlohmann/json (MIT license) - https://github.com/nlohmann/json
+- doctest (MIT license) - https://github.com/doctest/doctest
+- CC0 1.0 textures from ambientCG.com (public domain, no attribution required)
+  see data/textures/LIZENZ.txt for the full list of materials used.

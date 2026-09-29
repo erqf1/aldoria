@@ -1,0 +1,49 @@
+{
+  "id": "gs10_kern",
+  "name": "Der Schmiedekern",
+  "type": "boss",
+  "environment": {
+    "sun_direction": [-0.35, -0.7, -0.4],
+    "sun_color": [1.0, 0.6, 0.4],
+    "sky_ambient": [0.4, 0.24, 0.26],
+    "ground_ambient": [0.3, 0.14, 0.1],
+    "fog_color": [0.42, 0.18, 0.12],
+    "sky_top_color": [0.22, 0.1, 0.14],
+    "fog_start": 24,
+    "fog_end": 92
+  },
+  "shell": { "size": [44, 44], "height": 11, "color": [70, 56, 58], "cap_color": [190, 84, 36] },
+  "ground": { "color": [56, 42, 42] },
+  "player_spawn": [0, 0, 19],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 5, "height": 5.5, "kind": "arena", "target": "gs09_vorhalle:n" },
+    { "id": "exit", "side": "east", "x": -10, "width": 5, "height": 5.5, "kind": "boss_defeated", "target": "gs11_ende:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-12, 3, 5], "size": [1.8, 6, 1.8], "color": [118, 92, 90] },
+    { "tag": "pillar", "center": [12, 3, 5], "size": [1.8, 6, 1.8], "color": [118, 92, 90] },
+    { "tag": "pillar", "center": [-12, 3, -8], "size": [1.8, 6, 1.8], "color": [118, 92, 90] },
+    { "tag": "pillar", "center": [12, 3, -8], "size": [1.8, 6, 1.8], "color": [118, 92, 90] },
+    { "tag": "anvil", "center": [0, 0.7, -18.5], "size": [8, 1.4, 3], "color": [96, 84, 88] },
+    { "tag": "anvil", "center": [0, 2.0, -19.4], "size": [5, 4, 0.8], "color": [102, 88, 92] }
+  ],
+  "hazards": [
+    { "kind": "lava", "center": [-17.5, -0.1, 16], "size": [7, 0.3, 7], "damage": 20 },
+    { "kind": "lava", "center": [17.5, -0.1, 16], "size": [7, 0.3, 7], "damage": 20 },
+    { "kind": "lava", "center": [-17.5, -0.1, -16], "size": [7, 0.3, 7], "damage": 20 },
+    { "kind": "lava", "center": [17.5, -0.1, -16], "size": [7, 0.3, 7], "damage": 20 }
+  ],
+  "boss": { "type": "schmiedegolem", "position": [0, 0, -9] },
+  "decor": [
+    { "kind": "brazier", "position": [-6, 0, 20.6] },
+    { "kind": "brazier", "position": [6, 0, 20.6] },
+    { "kind": "brazier", "position": [-21, 0, 0] },
+    { "kind": "brazier", "position": [21, 0, 0] },
+    { "kind": "obsidian", "position": [-16, 0, 6], "scale": 1.6 },
+    { "kind": "obsidian", "position": [16, 0, 6], "scale": 1.6 }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 34, "seed": 381, "margin": 18, "min_scale": 1.2, "max_scale": 2.4 },
+    { "kind": "rock", "count": 12, "seed": 382, "margin": 18, "min_scale": 1.2, "max_scale": 2.2 }
+  ]
+}

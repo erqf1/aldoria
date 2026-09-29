@@ -1,0 +1,15 @@
+Texturen: Farb- und Normalkarten (1K) von ambientCG.com, Lizenz CC0 1.0 (gemeinfrei, keine Namensnennung nötig).
+Verwendete Materialien (Spielname = ambientCG-ID):
+  stone_wall = Bricks100        mossy_rock = Rock064        moss_floor = Ground037
+  paving_moss = PavingStones138 grass = Grass004            bark = Bark014
+  foliage = Moss002             wood = Planks023A           basalt = Rock030
+  dark_tiles = Tiles140         rusty_metal = Metal021      obsidian = Marble016
+  lava = Lava004                marble_white = Marble021    marble_vein = Marble012
+  cream_tiles = Tiles143        white_brick = Bricks060     ice_crystal = Ice001
+  travertine = Travertine009
+  cloth_red = Fabric016   cloth_blue = Fabric017   cloth_grey = Fabric066  leather_brown = Leather037
+  leather_light = Leather039   scales = Leather008   gold = Metal048A   steel = Metal009
+Vielen Dank an ambientCG und Lennart Demes.
+
+Selbst erzeugt (scripts/gen_creature_textures.py, prozedural, keine Fremdquelle, frei nutzbar):
+  scaly_hide (Schuppenhaut), rough_skin (raue Haut), weave_linen (Leinengewebe), bone_ivory (Knochen) fuer Gegner und Held.

@@ -1,0 +1,50 @@
+# Dungeon 3: Wechsel von Dungeon 1 über 2 nach 3, Doppelsprung-Item, Doppelsprung, Bosskampf gegen den Sturmwächter
+wait 0.4
+new_game
+wait 1.0
+god on
+room wh13_ende
+wait 0.6
+press confirm
+wait 1.6
+status
+room gs11_ende s
+wait 0.6
+shot d3_complete2
+press confirm
+wait 1.6
+status
+shot d3_start
+room ht03_feder s
+wait 0.8
+teleport 0 0.6 -5.2 3.14159
+wait 1.0
+shot d3_feder_banner
+status
+teleport 0 0 8 3.14159
+wait 0.6
+press jump
+wait 0.25
+hold jump 0.1
+press jump
+wait 0.12
+shot d3_doublejump
+wait 1.5
+room ht12_spitze s
+wait 0.8
+teleport 0 0 4 3.14159
+wait 2.5
+shot d3_boss_intro
+wait 3
+shot d3_boss_fight
+boss_hp 0.5
+wait 3
+shot d3_boss_p2
+boss_hp 0.25
+wait 3
+shot d3_boss_p3
+kill_all
+wait 1.5
+shot d3_boss_dead
+save
+quit

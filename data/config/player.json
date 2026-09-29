@@ -1,0 +1,27 @@
+{
+  "walk_speed": 5.5,
+  "sprint_speed": 8.5,
+  "ground_accel": 50.0,
+  "ground_decel": 60.0,
+  "air_accel": 18.0,
+  "turn_rate": 14.0,
+  "radius": 0.4,
+  "height": 1.8,
+
+  "jump_speed": 9.0,
+  "gravity": 28.0,
+  "max_fall_speed": 40.0,
+  "coyote_time": 0.10,
+  "jump_buffer": 0.12,
+  "jump_cut": 0.5,
+
+  "max_health": 100,
+  "attack_buffer": 0.22,
+  "dodge_buffer": 0.15,
+  "dodge_speed": 10.0,
+  "dodge_duration": 0.40,
+  "dodge_iframes": 0.26,
+  "dodge_cooldown": 0.25,
+  "hurt_time": 0.28,
+  "hurt_invulnerability": 0.9
+}

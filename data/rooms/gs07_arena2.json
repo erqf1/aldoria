@@ -1,0 +1,48 @@
+{
+  "id": "gs07_arena2",
+  "name": "Die Hochofen-Arena",
+  "type": "arena",
+  "environment": {
+    "sun_direction": [-0.35, -0.75, -0.4],
+    "sun_color": [1.0, 0.68, 0.44],
+    "sky_ambient": [0.4, 0.28, 0.28],
+    "ground_ambient": [0.3, 0.16, 0.12],
+    "fog_color": [0.4, 0.2, 0.14],
+    "sky_top_color": [0.22, 0.13, 0.18],
+    "fog_start": 24,
+    "fog_end": 88
+  },
+  "shell": { "size": [34, 34], "height": 9, "color": [74, 60, 62], "cap_color": [190, 84, 36] },
+  "ground": { "color": [62, 46, 44] },
+  "player_spawn": [0, 0, 14],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "arena", "target": "gs06_schmiedepfad:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "arena", "target": "gs08_rast2:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-9, 2, -3], "size": [1.6, 4, 1.6], "color": [112, 90, 92] },
+    { "tag": "pillar", "center": [9, 2, -3], "size": [1.6, 4, 1.6], "color": [112, 90, 92] },
+    { "tag": "pillar", "center": [0, 2, -9], "size": [1.6, 4, 1.6], "color": [112, 90, 92] },
+    { "tag": "pillar", "center": [-9, 2, 6], "size": [1.6, 4, 1.6], "color": [112, 90, 92] },
+    { "tag": "pillar", "center": [9, 2, 6], "size": [1.6, 4, 1.6], "color": [112, 90, 92] }
+  ],
+  "encounter": {
+    "waves": [
+      [ { "type": "ember_imp", "count": 3 }, { "type": "ember_archer", "count": 2 } ],
+      [ { "type": "magma_brute", "count": 1 }, { "type": "ember_imp", "count": 2 }, { "type": "cinder_leaper", "count": 1 } ],
+      [ { "type": "cinder_leaper", "count": 3 }, { "type": "ember_archer", "count": 2 }, { "type": "ember_imp", "count": 2 } ]
+    ],
+    "spawn_points": [ [-12, 0, -12], [12, 0, -12], [0, 0, -14], [-13, 0, 3], [13, 0, 3] ],
+    "reward": "segen"
+  },
+  "decor": [
+    { "kind": "brazier", "position": [-15.2, 0, -8] },
+    { "kind": "brazier", "position": [15.2, 0, -8] },
+    { "kind": "brazier", "position": [-15.2, 0, 8] },
+    { "kind": "brazier", "position": [15.2, 0, 8] }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 30, "seed": 351, "margin": 16, "min_scale": 1.0, "max_scale": 2.2 },
+    { "kind": "rock", "count": 14, "seed": 352, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 }
+  ]
+}

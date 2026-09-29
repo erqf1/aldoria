@@ -1,0 +1,29 @@
+# Ablauf 7: Dash über die 7-Meter-Lücke in den Windbrücken
+wait 0.4
+new_game
+wait 1.0
+god on
+room wh08_wind
+kill_all
+give dash
+wait 0.5
+teleport 0 0 19.2 3.14159
+wait 0.3
+hold forward+sprint 0.22
+press jump
+hold forward+sprint 0.25
+press dash
+hold forward+sprint 0.9
+wait 0.4
+status
+shot w1_landed
+# Gegenprobe ohne Dash: die Lücke ist zu breit
+teleport 0 0 19.2 3.14159
+wait 0.3
+hold forward+sprint 0.22
+press jump
+hold forward+sprint 1.2
+wait 1.5
+status
+shot w2_fell
+quit

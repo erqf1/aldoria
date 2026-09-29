@@ -1,0 +1,29 @@
+# Ablauf 6: Pausemenü und Einstellungen
+wait 0.4
+new_game
+wait 1.0
+press pause
+wait 0.3
+shot u1_pause
+press down
+press confirm
+wait 0.3
+shot u1b_map
+press cancel
+wait 0.2
+press down
+press confirm
+wait 0.3
+shot u2_settings
+press down
+press down
+press down
+press ui_right
+wait 0.2
+shot u3_settings_changed
+press cancel
+wait 0.2
+press cancel
+wait 0.3
+status
+quit

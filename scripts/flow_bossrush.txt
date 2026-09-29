@@ -1,0 +1,24 @@
+# Boss-Rush: erster Boss (Kobold-König), besiegen, Segen, zweiter Boss (Schmiedegolem)
+wait 0.4
+shot br0_title
+bossrush
+wait 1.0
+god on
+shot br1_start
+wait 4
+shot br2_boss1
+boss_hp 0.3
+wait 3
+kill_all
+wait 4
+status
+shot br3_cleared
+segen_menu
+wait 0.3
+press confirm
+wait 5
+shot br4_boss2
+kill_all
+wait 3
+status
+quit

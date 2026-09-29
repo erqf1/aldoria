@@ -1,0 +1,82 @@
+{
+  "segen": [
+    {
+      "id": "scharfe_klinge",
+      "name": "Scharfe Klinge",
+      "description": "Deine Schwertschläge richten 20 % mehr Schaden an.",
+      "effects": { "damage_mult": 1.2 }
+    },
+    {
+      "id": "flinke_hiebe",
+      "name": "Flinke Hiebe",
+      "description": "Du schlägst 25 % schneller zu.",
+      "effects": { "attack_speed_mult": 1.25 }
+    },
+    {
+      "id": "zaehe_haut",
+      "name": "Zähe Haut",
+      "description": "+25 maximale Lebenspunkte.",
+      "effects": { "max_health_add": 25 }
+    },
+    {
+      "id": "flinke_beine",
+      "name": "Flinke Beine",
+      "description": "Du läufst 12 % schneller.",
+      "effects": { "move_speed_mult": 1.12 }
+    },
+    {
+      "id": "schattenschritt",
+      "name": "Schattenschritt",
+      "description": "Ausweichen lädt 20 % schneller nach und macht länger unverwundbar.",
+      "effects": { "dodge_cooldown_mult": 0.8, "dodge_iframes_add": 0.08 }
+    },
+    {
+      "id": "funkenmeister",
+      "name": "Funkenmeister",
+      "description": "Der Funkenwurf trifft 50 % härter und lädt 30 % schneller nach.",
+      "effects": { "spark_damage_mult": 1.5, "spark_cooldown_mult": 0.7 }
+    },
+    {
+      "id": "blutdurst",
+      "name": "Blutdurst",
+      "description": "Jeder besiegte Gegner heilt dich um 4 Lebenspunkte.",
+      "effects": { "heal_on_kill": 4 }
+    },
+    {
+      "id": "wuchtschlag",
+      "name": "Wuchtschlag",
+      "description": "Deine Schläge stoßen Gegner 40 % weiter zurück und treffen 10 % härter.",
+      "effects": { "knockback_mult": 1.4, "damage_mult": 1.1 }
+    },
+    {
+      "id": "weite_klinge",
+      "name": "Weite Klinge",
+      "description": "Deine Schläge reichen 25 % weiter.",
+      "effects": { "range_mult": 1.25 }
+    },
+    {
+      "id": "kritisches_auge",
+      "name": "Kritisches Auge",
+      "description": "15 % Chance, doppelten Schaden zu verursachen.",
+      "effects": { "crit_chance": 0.15 }
+    },
+    {
+      "id": "kraeftiger_trank",
+      "name": "Kräftiger Trank",
+      "description": "Dein Heiltrank heilt 20 Lebenspunkte mehr.",
+      "effects": { "flask_heal_add": 20 }
+    },
+    {
+      "id": "eiserner_wille",
+      "name": "Eiserner Wille",
+      "description": "Du erleidest 20 % weniger Schaden.",
+      "effects": { "resistance": 0.2 }
+    },
+    {
+      "id": "federfuss",
+      "name": "Federfuß",
+      "description": "Du springst 10 % höher.",
+      "effects": { "jump_mult": 1.1 }
+    }
+  ]
+}

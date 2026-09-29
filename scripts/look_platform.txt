@@ -1,0 +1,15 @@
+# Fahrende Plattform: die Textur muss mit der Plattform fahren
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+room wh03_sprung
+wait 0.6
+cam 0 6 12 0 0.5 2 60
+shot p1
+wait 1.0
+shot p2
+wait 1.0
+shot p3
+quit

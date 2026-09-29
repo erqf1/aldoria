@@ -1,0 +1,60 @@
+# Rundgang: jeden Raum von oben ansehen (feste Kamera), dazu Titel und Startansicht
+wait 0.5
+shot tour_00_title
+new_game
+wait 1.0
+shot tour_01_start_verfolger
+god on
+debug off
+cam 0 20 20  0 0 -4  62
+wait 0.3
+shot tour_01_pforte
+room wh02_gang
+cam 0 24 22  0 0 -4  62
+wait 0.5
+shot tour_02_gang
+room wh03_sprung
+cam 0 26 34  0 -2 -4  62
+wait 0.5
+shot tour_03_sprung
+room wh04_halle
+cam 0 24 24  0 0 -4  62
+wait 0.5
+shot tour_04_halle
+room wh04b_nische
+cam 0 16 14  0 0 0  62
+wait 0.5
+shot tour_04b_nische
+room wh05_arena1
+cam 0 26 24  0 0 -4  62
+wait 0.5
+shot tour_05_arena1
+room wh06_rast1
+cam 0 16 16  0 0 -3  62
+wait 0.5
+shot tour_06_rast1
+room wh07_schatz
+cam 0 20 20  0 0 -4  62
+wait 0.5
+shot tour_07_schatz
+room wh08_wind
+cam 0 30 42  0 -2 -6  62
+wait 0.5
+shot tour_08_wind
+room wh09_arena2
+cam 0 28 26  0 0 -4  62
+wait 0.5
+shot tour_09_arena2
+room wh10_rast2
+cam 0 16 16  0 0 -3  62
+wait 0.5
+shot tour_10_rast2
+room wh11_vorhalle
+cam 0 22 22  0 0 -4  62
+wait 0.5
+shot tour_11_vorhalle
+room wh12_thron
+cam 0 32 30  0 0 -6  62
+wait 0.5
+shot tour_12_thron
+quit

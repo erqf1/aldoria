@@ -1,0 +1,49 @@
+{
+  "id": "wh11_vorhalle",
+  "name": "Die Vorhalle des Königs",
+  "type": "hub",
+  "environment": {
+    "sun_direction": [-0.4, -0.8, -0.3],
+    "sun_color": [0.95, 0.74, 0.56],
+    "sky_ambient": [0.36, 0.34, 0.4],
+    "ground_ambient": [0.22, 0.16, 0.14],
+    "fog_color": [0.42, 0.36, 0.36],
+    "sky_top_color": [0.28, 0.28, 0.38],
+    "fog_start": 20,
+    "fog_end": 76
+  },
+  "shell": { "size": [26, 26], "height": 8, "color": [108, 98, 96] },
+  "ground": { "color": [84, 72, 64] },
+  "player_spawn": [0, 0, 10],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "wh10_rast2:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 5, "height": 5.5, "kind": "key", "key_type": "boss_key", "target": "wh12_thron:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-5, 2.5, -2], "size": [1.4, 5, 1.4], "color": [130, 120, 116] },
+    { "tag": "pillar", "center": [5, 2.5, -2], "size": [1.4, 5, 1.4], "color": [130, 120, 116] },
+    { "tag": "pillar", "center": [-5, 2.5, 5], "size": [1.4, 5, 1.4], "color": [130, 120, 116] },
+    { "tag": "pillar", "center": [5, 2.5, 5], "size": [1.4, 5, 1.4], "color": [130, 120, 116] }
+  ],
+  "enemies": [
+    { "type": "leaper", "position": [-7, 0, -6] },
+    { "type": "leaper", "position": [7, 0, -6] }
+  ],
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [-10, 0.6, 9] },
+    { "id": "shard_b", "type": "shard", "position": [10, 0.6, 9] },
+    { "id": "shard_c", "type": "shard", "position": [0, 0.6, -8] },
+    { "id": "potion1", "type": "potion", "position": [10, 0.6, -9] }
+  ],
+  "decor": [
+    { "kind": "torch", "position": [3.2, 0, -12.2] },
+    { "kind": "torch", "position": [-3.2, 0, -12.2] },
+    { "kind": "torch", "position": [-11.5, 0, -4] },
+    { "kind": "torch", "position": [11.5, 0, -4] }
+  ],
+  "scatter": [
+    { "kind": "pine", "count": 36, "seed": 111, "margin": 16 },
+    { "kind": "tree", "count": 20, "seed": 112, "margin": 16 },
+    { "kind": "rock", "count": 8, "seed": 113, "region": "inside", "min_scale": 0.7, "max_scale": 1.3 }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "gale_leaper",
+  "name": "Wind-Springer",
+  "behavior": "leaper",
+  "max_health": 44,
+  "radius": 0.42,
+  "height": 1.0,
+  "chase_speed": 4.8,
+  "sight_range": 13,
+  "lose_range": 21,
+  "attack_range": 1.2,
+  "leap_range": 8,
+  "leap_speed": 12,
+  "leap_height": 7.5,
+  "leap_cooldown": 2.0,
+  "telegraph": 0.5,
+  "attack_recovery": 0.8,
+  "attack_half_angle_deg": 180,
+  "damage": 18,
+  "knockback": 7,
+  "stagger": 0.3,
+  "interruptible": true,
+  "color": [
+    150,
+    235,
+    215
+  ],
+  "health_drop_chance": 0.12
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gs09_vorhalle",
+  "name": "Die Vorhalle des Golems",
+  "type": "hub",
+  "environment": {
+    "sun_direction": [-0.4, -0.75, -0.3],
+    "sun_color": [1.0, 0.66, 0.44],
+    "sky_ambient": [0.38, 0.26, 0.28],
+    "ground_ambient": [0.28, 0.14, 0.12],
+    "fog_color": [0.38, 0.18, 0.14],
+    "sky_top_color": [0.2, 0.12, 0.18],
+    "fog_start": 20,
+    "fog_end": 78
+  },
+  "shell": { "size": [26, 26], "height": 8, "color": [72, 58, 60], "cap_color": [190, 84, 36] },
+  "ground": { "color": [58, 44, 44] },
+  "player_spawn": [0, 0, 10],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "gs08_rast2:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 5, "height": 5.5, "kind": "key", "key_type": "boss_key", "target": "gs10_kern:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-5, 2.5, -2], "size": [1.4, 5, 1.4], "color": [116, 92, 92] },
+    { "tag": "pillar", "center": [5, 2.5, -2], "size": [1.4, 5, 1.4], "color": [116, 92, 92] },
+    { "tag": "pillar", "center": [-5, 2.5, 5], "size": [1.4, 5, 1.4], "color": [116, 92, 92] },
+    { "tag": "pillar", "center": [5, 2.5, 5], "size": [1.4, 5, 1.4], "color": [116, 92, 92] }
+  ],
+  "enemies": [
+    { "type": "cinder_leaper", "position": [-7, 0, -6] },
+    { "type": "cinder_leaper", "position": [7, 0, -6] }
+  ],
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [-10, 0.6, 9] },
+    { "id": "shard_b", "type": "shard", "position": [10, 0.6, 9] },
+    { "id": "shard_c", "type": "shard", "position": [0, 0.6, -8] },
+    { "id": "flask2", "type": "flask", "position": [10, 0.6, -9] }
+  ],
+  "decor": [
+    { "kind": "brazier", "position": [3.2, 0, -12.2] },
+    { "kind": "brazier", "position": [-3.2, 0, -12.2] },
+    { "kind": "brazier", "position": [-11.5, 0, -4] },
+    { "kind": "brazier", "position": [11.5, 0, -4] }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 30, "seed": 371, "margin": 16, "min_scale": 1.0, "max_scale": 2.2 },
+    { "kind": "rock", "count": 10, "seed": 372, "region": "inside", "min_scale": 0.7, "max_scale": 1.3 }
+  ]
+}

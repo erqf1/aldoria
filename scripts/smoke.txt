@@ -1,0 +1,7 @@
+# Rauchtest: Spiel starten, ein Stück laufen, Screenshots machen
+wait 0.5
+shot smoke_start
+hold forward 1.5
+hold left+sprint 0.6
+shot smoke_walked
+quit

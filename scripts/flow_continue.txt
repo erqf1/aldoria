@@ -1,0 +1,8 @@
+# Ablauf 5: Spielstand laden ("Weiter" im Titel); vorher muss flow_death.txt gelaufen sein
+wait 0.5
+shot c1_title
+continue
+wait 1.5
+status
+shot c2_continued
+quit

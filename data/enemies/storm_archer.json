@@ -1,0 +1,26 @@
+{
+  "id": "storm_archer",
+  "name": "Sturm-Schütze",
+  "behavior": "ranged",
+  "max_health": 38,
+  "radius": 0.42,
+  "height": 1.05,
+  "chase_speed": 3.6,
+  "sight_range": 18,
+  "lose_range": 26,
+  "preferred_min": 6,
+  "preferred_max": 11,
+  "shoot_cooldown": 1.9,
+  "telegraph": 0.65,
+  "attack_recovery": 0.5,
+  "projectile_speed": 15,
+  "damage": 14,
+  "stagger": 0.28,
+  "interruptible": true,
+  "color": [
+    190,
+    225,
+    255
+  ],
+  "health_drop_chance": 0.16
+}

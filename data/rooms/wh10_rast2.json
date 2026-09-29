@@ -1,0 +1,39 @@
+{
+  "id": "wh10_rast2",
+  "name": "Der Glühwurmhain",
+  "type": "rest",
+  "environment": {
+    "sun_direction": [-0.3, -0.8, -0.3],
+    "sun_color": [1.0, 0.84, 0.58],
+    "sky_ambient": [0.38, 0.44, 0.5],
+    "ground_ambient": [0.24, 0.2, 0.16],
+    "fog_color": [0.46, 0.54, 0.5],
+    "sky_top_color": [0.3, 0.44, 0.54],
+    "fog_start": 22,
+    "fog_end": 84
+  },
+  "shell": { "size": [20, 20], "height": 7, "color": [98, 108, 94] },
+  "ground": { "color": [68, 94, 66] },
+  "player_spawn": [0, 0, 6],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "wh09_arena2:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "open", "target": "wh11_vorhalle:s" }
+  ],
+  "checkpoint": { "position": [0, 0, -3] },
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [6, 0.6, 2] },
+    { "id": "shard_b", "type": "shard", "position": [-6, 0.6, 2] },
+    { "id": "shard_c", "type": "shard", "position": [0, 0.6, -7] }
+  ],
+  "decor": [
+    { "kind": "torch", "position": [3.5, 0, -1.5] },
+    { "kind": "torch", "position": [-3.5, 0, -1.5] },
+    { "kind": "bush", "position": [-7, 0, -6], "scale": 1.3 },
+    { "kind": "bush", "position": [7, 0, -6], "scale": 1.3 }
+  ],
+  "scatter": [
+    { "kind": "tree", "count": 36, "seed": 101, "margin": 15 },
+    { "kind": "pine", "count": 20, "seed": 102, "margin": 17 },
+    { "kind": "mushroom", "count": 14, "seed": 103, "region": "inside", "min_scale": 1.0, "max_scale": 2.0 }
+  ]
+}

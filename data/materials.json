@@ -1,0 +1,534 @@
+{
+  "_comment": "Materialien: Farb- und Normalentextur (aus data/textures, CC0 von ambientCG.com), Kachelgröße in Metern, Normal-Stärke, Glanz, Spiegelstärke, Eigenleuchten, Fließgeschwindigkeit, Tönung mit der Raumfarbe (0..1)",
+  "materials": {
+    "stone_wall": {
+      "tile": 2.6,
+      "normal": 1.0,
+      "gloss": 0.18,
+      "spec": 0.25,
+      "tint": 0.2,
+      "sat": 0.75,
+      "bright": 0.85
+    },
+    "mossy_rock": {
+      "tile": 2.4,
+      "normal": 1.1,
+      "gloss": 0.15,
+      "spec": 0.2,
+      "tint": 0.15,
+      "sat": 0.8,
+      "bright": 0.85
+    },
+    "moss_floor": {
+      "tile": 3.2,
+      "normal": 1.0,
+      "gloss": 0.1,
+      "spec": 0.15,
+      "tint": 0.15,
+      "sat": 0.7,
+      "bright": 0.62
+    },
+    "paving_moss": {
+      "tile": 2.8,
+      "normal": 1.0,
+      "gloss": 0.2,
+      "spec": 0.25,
+      "tint": 0.15,
+      "sat": 0.7,
+      "bright": 0.8
+    },
+    "grass": {
+      "tile": 2.2,
+      "normal": 0.8,
+      "gloss": 0.05,
+      "spec": 0.05,
+      "tint": 0.1,
+      "sat": 0.8,
+      "bright": 0.62
+    },
+    "bark": {
+      "tile": 1.6,
+      "normal": 1.2,
+      "gloss": 0.05,
+      "spec": 0.1,
+      "tint": 0.1,
+      "sat": 0.85,
+      "bright": 0.9
+    },
+    "foliage": {
+      "tile": 1.1,
+      "normal": 0.9,
+      "gloss": 0.05,
+      "spec": 0.1,
+      "tint": 0.1,
+      "sat": 0.85,
+      "bright": 0.8
+    },
+    "wood": {
+      "tile": 1.8,
+      "normal": 1.0,
+      "gloss": 0.22,
+      "spec": 0.25,
+      "tint": 0.15,
+      "sat": 0.9,
+      "bright": 0.9
+    },
+    "basalt": {
+      "tile": 2.8,
+      "normal": 1.2,
+      "gloss": 0.15,
+      "spec": 0.25,
+      "tint": 0.15,
+      "sat": 0.75,
+      "bright": 0.75
+    },
+    "dark_tiles": {
+      "tile": 3.0,
+      "normal": 1.0,
+      "gloss": 0.4,
+      "spec": 0.45,
+      "tint": 0.15,
+      "sat": 0.75,
+      "bright": 0.8
+    },
+    "rusty_metal": {
+      "tile": 2.2,
+      "normal": 1.0,
+      "gloss": 0.55,
+      "spec": 0.7,
+      "tint": 0.1,
+      "sat": 0.9,
+      "bright": 0.85
+    },
+    "obsidian": {
+      "tile": 2.6,
+      "normal": 0.8,
+      "gloss": 0.9,
+      "spec": 1.0,
+      "tint": 0.1,
+      "sat": 1.0,
+      "bright": 1.0
+    },
+    "lava": {
+      "tile": 4.5,
+      "normal": 1.0,
+      "gloss": 0.1,
+      "spec": 0.1,
+      "emissive": 1.9,
+      "scroll": 0.045,
+      "tint": 0.0
+    },
+    "marble_white": {
+      "tile": 3.6,
+      "normal": 0.7,
+      "gloss": 0.8,
+      "spec": 0.8,
+      "tint": 0.1,
+      "sat": 0.9,
+      "bright": 0.8
+    },
+    "marble_vein": {
+      "tile": 3.6,
+      "normal": 0.7,
+      "gloss": 0.7,
+      "spec": 0.7,
+      "tint": 0.1,
+      "sat": 0.9,
+      "bright": 0.8
+    },
+    "cream_tiles": {
+      "tile": 3.0,
+      "normal": 0.9,
+      "gloss": 0.45,
+      "spec": 0.5,
+      "tint": 0.12,
+      "sat": 0.85,
+      "bright": 0.75
+    },
+    "white_brick": {
+      "tile": 2.6,
+      "normal": 1.0,
+      "gloss": 0.15,
+      "spec": 0.25,
+      "tint": 0.15,
+      "sat": 0.9,
+      "bright": 0.8
+    },
+    "ice_crystal": {
+      "tile": 2.6,
+      "normal": 0.9,
+      "gloss": 0.85,
+      "spec": 0.9,
+      "tint": 0.05
+    },
+    "travertine": {
+      "tile": 3.2,
+      "normal": 0.8,
+      "gloss": 0.45,
+      "spec": 0.5,
+      "tint": 0.1,
+      "sat": 0.9,
+      "bright": 0.85
+    },
+    "cloth_red": {
+      "tile": 0.45,
+      "normal": 1.0,
+      "gloss": 0.1,
+      "spec": 0.1,
+      "tint": 0.35,
+      "sat": 0.95,
+      "bright": 0.95
+    },
+    "cloth_blue": {
+      "tile": 0.45,
+      "normal": 1.0,
+      "gloss": 0.1,
+      "spec": 0.1,
+      "tint": 0.3,
+      "sat": 0.95,
+      "bright": 0.95
+    },
+    "cloth_grey": {
+      "tile": 0.45,
+      "normal": 1.0,
+      "gloss": 0.08,
+      "spec": 0.08,
+      "tint": 0.45,
+      "sat": 0.8,
+      "bright": 0.85
+    },
+    "leather_brown": {
+      "tile": 0.55,
+      "normal": 1.0,
+      "gloss": 0.35,
+      "spec": 0.3,
+      "tint": 0.3,
+      "sat": 0.9,
+      "bright": 0.85
+    },
+    "leather_light": {
+      "tile": 0.6,
+      "normal": 1.0,
+      "gloss": 0.18,
+      "spec": 0.15,
+      "tint": 0.9,
+      "sat": 0.6,
+      "bright": 1.05
+    },
+    "scales": {
+      "tile": 0.5,
+      "normal": 1.2,
+      "gloss": 0.45,
+      "spec": 0.5,
+      "tint": 0.85,
+      "sat": 0.6,
+      "bright": 1.25
+    },
+    "gold": {
+      "tile": 0.8,
+      "normal": 0.6,
+      "gloss": 0.85,
+      "spec": 1.0,
+      "tint": 0.0,
+      "sat": 1.0,
+      "bright": 1.0
+    },
+    "steel": {
+      "tile": 0.9,
+      "normal": 0.6,
+      "gloss": 0.85,
+      "spec": 1.0,
+      "tint": 0.0,
+      "sat": 0.9,
+      "bright": 1.0
+    },
+    "ember_skin": {
+      "color": "basalt_color.jpg",
+      "normal_file": "basalt_normal.jpg",
+      "tile": 0.7,
+      "normal": 1.3,
+      "gloss": 0.35,
+      "spec": 0.4,
+      "tint": 0.75,
+      "sat": 0.6,
+      "bright": 0.7
+    },
+    "storm_skin": {
+      "color": "marble_vein_color.jpg",
+      "normal_file": "marble_vein_normal.jpg",
+      "tile": 0.8,
+      "normal": 0.8,
+      "gloss": 0.7,
+      "spec": 0.7,
+      "tint": 0.8,
+      "sat": 0.7,
+      "bright": 1.1
+    },
+    "golem_skin": {
+      "color": "basalt_color.jpg",
+      "normal_file": "basalt_normal.jpg",
+      "tile": 1.4,
+      "normal": 1.4,
+      "gloss": 0.2,
+      "spec": 0.3,
+      "tint": 0.35,
+      "sat": 0.6,
+      "bright": 0.75
+    },
+    "king_skin": {
+      "color": "leather_light_color.jpg",
+      "normal_file": "leather_light_normal.jpg",
+      "tile": 1.2,
+      "normal": 1.1,
+      "gloss": 0.2,
+      "spec": 0.2,
+      "tint": 0.9,
+      "sat": 0.6,
+      "bright": 1.0
+    },
+    "storm_body": {
+      "color": "marble_vein_color.jpg",
+      "normal_file": "marble_vein_normal.jpg",
+      "tile": 1.6,
+      "normal": 0.7,
+      "gloss": 0.75,
+      "spec": 0.8,
+      "tint": 0.7,
+      "sat": 0.7,
+      "bright": 1.15
+    },
+    "hero_tunic": {
+      "color": "weave_linen_color.jpg",
+      "normal_file": "weave_linen_normal.jpg",
+      "tile": 0.7,
+      "normal": 1.0,
+      "gloss": 0.1,
+      "spec": 0.08,
+      "tint": 0.92,
+      "sat": 1.0,
+      "bright": 0.95,
+      "max_size": 512
+    },
+    "hero_pants": {
+      "color": "weave_linen_color.jpg",
+      "normal_file": "weave_linen_normal.jpg",
+      "tile": 0.9,
+      "normal": 0.5,
+      "gloss": 0.08,
+      "spec": 0.06,
+      "tint": 0.9,
+      "sat": 0.9,
+      "bright": 0.8,
+      "max_size": 512
+    },
+    "hero_leather": {
+      "color": "leather_brown_color.jpg",
+      "normal_file": "leather_brown_normal.jpg",
+      "tile": 0.9,
+      "normal": 1.3,
+      "gloss": 0.35,
+      "spec": 0.35,
+      "tint": 0.35,
+      "sat": 0.95,
+      "bright": 0.95,
+      "max_size": 512
+    },
+    "hero_skin": {
+      "color": "leather_light_color.jpg",
+      "normal_file": "leather_light_normal.jpg",
+      "tile": 1.2,
+      "normal": 0.25,
+      "gloss": 0.2,
+      "spec": 0.12,
+      "tint": 0.95,
+      "sat": 0.55,
+      "bright": 1.0,
+      "max_size": 512
+    },
+    "hero_hair": {
+      "color": "bark_color.jpg",
+      "normal_file": "bark_normal.jpg",
+      "tile": 0.9,
+      "normal": 1.0,
+      "gloss": 0.3,
+      "spec": 0.3,
+      "tint": 0.9,
+      "sat": 0.8,
+      "bright": 0.9,
+      "max_size": 512
+    },
+    "hero_cape": {
+      "color": "weave_linen_color.jpg",
+      "normal_file": "weave_linen_normal.jpg",
+      "tile": 0.8,
+      "normal": 1.0,
+      "gloss": 0.28,
+      "spec": 0.22,
+      "tint": 0.92,
+      "sat": 1.0,
+      "bright": 0.95,
+      "max_size": 512
+    },
+    "hero_gold": {
+      "color": "gold_color.jpg",
+      "normal_file": "gold_normal.jpg",
+      "tile": 1.0,
+      "normal": 0.5,
+      "gloss": 0.9,
+      "spec": 1.0,
+      "tint": 0.2,
+      "sat": 1.0,
+      "bright": 1.0,
+      "max_size": 512
+    },
+    "hero_steel": {
+      "color": "steel_color.jpg",
+      "normal_file": "steel_normal.jpg",
+      "tile": 1.0,
+      "normal": 0.5,
+      "gloss": 0.9,
+      "spec": 1.0,
+      "tint": 0.0,
+      "sat": 0.9,
+      "bright": 1.0,
+      "max_size": 512
+    },
+    "kobold_hide": {
+      "color": "scaly_hide_color.jpg",
+      "normal_file": "scaly_hide_normal.jpg",
+      "tile": 0.6,
+      "normal": 1.1,
+      "gloss": 0.32,
+      "spec": 0.3,
+      "tint": 0.9,
+      "sat": 1.0,
+      "bright": 1.55,
+      "max_size": 512
+    },
+    "leaper_hide": {
+      "color": "scaly_hide_color.jpg",
+      "normal_file": "scaly_hide_normal.jpg",
+      "tile": 0.5,
+      "normal": 1.5,
+      "gloss": 0.55,
+      "spec": 0.5,
+      "tint": 0.9,
+      "sat": 1.0,
+      "bright": 1.5,
+      "max_size": 512
+    },
+    "brute_hide": {
+      "color": "rough_skin_color.jpg",
+      "normal_file": "rough_skin_normal.jpg",
+      "tile": 0.9,
+      "normal": 1.4,
+      "gloss": 0.18,
+      "spec": 0.15,
+      "tint": 0.9,
+      "sat": 0.95,
+      "bright": 1.5,
+      "max_size": 512
+    },
+    "enemy_cloth": {
+      "color": "weave_linen_color.jpg",
+      "normal_file": "weave_linen_normal.jpg",
+      "tile": 0.3,
+      "normal": 1.2,
+      "gloss": 0.08,
+      "spec": 0.06,
+      "tint": 0.75,
+      "sat": 0.9,
+      "bright": 1.4,
+      "max_size": 512
+    },
+    "bone": {
+      "color": "bone_ivory_color.jpg",
+      "normal_file": "bone_ivory_normal.jpg",
+      "tile": 0.45,
+      "normal": 1.0,
+      "gloss": 0.35,
+      "spec": 0.3,
+      "tint": 0.15,
+      "sat": 0.9,
+      "bright": 1.15,
+      "max_size": 512
+    },
+    "club_wood": {
+      "color": "wood_color.jpg",
+      "normal_file": "wood_normal.jpg",
+      "tile": 0.7,
+      "normal": 1.2,
+      "gloss": 0.22,
+      "spec": 0.22,
+      "tint": 0.15,
+      "sat": 0.9,
+      "bright": 0.95,
+      "max_size": 512
+    },
+    "armor_metal": {
+      "color": "rusty_metal_color.jpg",
+      "normal_file": "rusty_metal_normal.jpg",
+      "tile": 0.8,
+      "normal": 1.2,
+      "gloss": 0.5,
+      "spec": 0.7,
+      "tint": 0.1,
+      "sat": 0.9,
+      "bright": 0.9,
+      "max_size": 512
+    }
+  },
+  "themes": {
+    "wurzel": {
+      "wall": "stone_wall",
+      "floor": "moss_floor",
+      "floor2": "paving_moss",
+      "island": "mossy_rock",
+      "accent": "mossy_rock",
+      "pillar": "mossy_rock",
+      "trim": "mossy_rock",
+      "wood": "wood",
+      "outside": "grass",
+      "rock": "mossy_rock",
+      "bark": "bark",
+      "foliage": "foliage",
+      "platform": "paving_moss",
+      "hazard": "lava",
+      "crystal": "ice_crystal"
+    },
+    "schmiede": {
+      "wall": "basalt",
+      "floor": "dark_tiles",
+      "floor2": "basalt",
+      "island": "basalt",
+      "accent": "rusty_metal",
+      "pillar": "obsidian",
+      "trim": "rusty_metal",
+      "wood": "rusty_metal",
+      "outside": "basalt",
+      "rock": "basalt",
+      "bark": "basalt",
+      "foliage": "basalt",
+      "platform": "rusty_metal",
+      "hazard": "lava",
+      "crystal": "ice_crystal"
+    },
+    "himmel": {
+      "wall": "white_brick",
+      "floor": "marble_white",
+      "floor2": "cream_tiles",
+      "island": "cream_tiles",
+      "accent": "marble_vein",
+      "pillar": "travertine",
+      "trim": "travertine",
+      "wood": "marble_vein",
+      "outside": "marble_white",
+      "rock": "marble_vein",
+      "bark": "travertine",
+      "foliage": "marble_white",
+      "platform": "cream_tiles",
+      "hazard": "lava",
+      "crystal": "ice_crystal"
+    }
+  }
+}

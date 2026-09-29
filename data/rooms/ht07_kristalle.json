@@ -1,0 +1,346 @@
+{
+  "id": "ht07_kristalle",
+  "name": "Die Kristallinseln",
+  "type": "puzzle",
+  "environment": {
+    "sun_direction": [
+      -0.4,
+      -0.85,
+      -0.3
+    ],
+    "sun_color": [
+      1.0,
+      0.96,
+      0.88
+    ],
+    "sky_ambient": [
+      0.52,
+      0.62,
+      0.8
+    ],
+    "ground_ambient": [
+      0.36,
+      0.4,
+      0.5
+    ],
+    "fog_color": [
+      0.72,
+      0.82,
+      0.95
+    ],
+    "sky_top_color": [
+      0.42,
+      0.62,
+      0.95
+    ],
+    "fog_start": 50,
+    "fog_end": 160
+  },
+  "shell": {
+    "size": [
+      30,
+      36
+    ],
+    "height": 9,
+    "color": [
+      150,
+      158,
+      176
+    ],
+    "cap_color": [
+      235,
+      245,
+      255
+    ],
+    "depth": 18
+  },
+  "ground": {
+    "enabled": false,
+    "size": [
+      32,
+      38
+    ]
+  },
+  "kill_y": -14,
+  "player_spawn": [
+    0,
+    0,
+    15.5
+  ],
+  "doors": [
+    {
+      "id": "s",
+      "side": "south",
+      "x": 0,
+      "width": 4,
+      "kind": "open",
+      "target": "ht06_rast1:n"
+    },
+    {
+      "id": "n",
+      "side": "north",
+      "x": 0,
+      "width": 4,
+      "kind": "switch",
+      "target": "ht08_windbruecke:s",
+      "switch": "crystal_w+crystal_e"
+    }
+  ],
+  "boxes": [
+    {
+      "tag": "island",
+      "center": [
+        0,
+        -0.5,
+        14
+      ],
+      "size": [
+        10,
+        1,
+        8
+      ],
+      "color": [
+        176,
+        184,
+        204
+      ]
+    },
+    {
+      "tag": "island",
+      "center": [
+        0,
+        -0.5,
+        2
+      ],
+      "size": [
+        12,
+        1,
+        10
+      ],
+      "color": [
+        176,
+        184,
+        204
+      ]
+    },
+    {
+      "tag": "island",
+      "center": [
+        0,
+        -0.5,
+        -14
+      ],
+      "size": [
+        10,
+        1,
+        8
+      ],
+      "color": [
+        176,
+        184,
+        204
+      ]
+    },
+    {
+      "tag": "island_side",
+      "center": [
+        -11,
+        -0.5,
+        0
+      ],
+      "size": [
+        5,
+        1,
+        5
+      ],
+      "color": [
+        190,
+        198,
+        216
+      ]
+    },
+    {
+      "tag": "island_side",
+      "center": [
+        11,
+        -0.5,
+        0
+      ],
+      "size": [
+        5,
+        1,
+        5
+      ],
+      "color": [
+        190,
+        198,
+        216
+      ]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "mover",
+      "kind": "moving",
+      "size": [
+        4,
+        0.6,
+        4
+      ],
+      "path": [
+        [
+          0,
+          -0.3,
+          -5.5
+        ],
+        [
+          0,
+          -0.3,
+          -8.5
+        ]
+      ],
+      "speed": 2.0,
+      "pause": 1.0,
+      "color": [
+        220,
+        226,
+        240
+      ]
+    }
+  ],
+  "switches": [
+    {
+      "id": "crystal_w",
+      "kind": "crystal",
+      "position": [
+        -11,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "crystal_e",
+      "kind": "crystal",
+      "position": [
+        11,
+        0,
+        0
+      ]
+    }
+  ],
+  "pickups": [
+    {
+      "id": "shard_a",
+      "type": "shard",
+      "position": [
+        -12.5,
+        0.6,
+        -1.5
+      ]
+    },
+    {
+      "id": "shard_b",
+      "type": "shard",
+      "position": [
+        12.5,
+        0.6,
+        -1.5
+      ]
+    },
+    {
+      "id": "shard_c",
+      "type": "shard",
+      "position": [
+        0,
+        0.6,
+        -15
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "type": "wind_imp",
+      "position": [
+        -4,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "wind_imp",
+      "position": [
+        4,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "storm_archer",
+      "position": [
+        -3,
+        0,
+        -14
+      ]
+    },
+    {
+      "type": "storm_archer",
+      "position": [
+        3,
+        0,
+        -14
+      ]
+    }
+  ],
+  "decor": [
+    {
+      "kind": "lamp",
+      "position": [
+        3,
+        0,
+        17
+      ]
+    },
+    {
+      "kind": "lamp",
+      "position": [
+        -3,
+        0,
+        17
+      ]
+    },
+    {
+      "kind": "lamp",
+      "position": [
+        3,
+        0,
+        -17
+      ]
+    },
+    {
+      "kind": "lamp",
+      "position": [
+        -3,
+        0,
+        -17
+      ]
+    }
+  ],
+  "scatter": [
+    {
+      "kind": "cloud",
+      "count": 32,
+      "seed": 471,
+      "margin": 20,
+      "min_scale": 1.2,
+      "max_scale": 2.6
+    },
+    {
+      "kind": "spire",
+      "count": 10,
+      "seed": 472,
+      "margin": 15,
+      "min_scale": 1.0,
+      "max_scale": 2.0
+    }
+  ]
+}

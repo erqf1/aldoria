@@ -1,0 +1,408 @@
+wait 0.4
+new_game
+wait 1.0
+give dash
+give key 5
+give bosskey
+press up
+hold left 0.4
+hold forward+right 0.6
+heal
+wait 0.4
+hold left 0.5
+hold forward 0.3
+wait 0.5
+hold left 0.7
+press attack
+hold forward+right 0.9
+press secondary
+press jump
+kill_all
+look -3e-1 -2e-1
+hold back 0.5
+heal
+hold left 0.1
+press up
+press heal
+room wh04_halle
+kill_all
+press attack
+room wh01_pforte
+press interact
+wait 0.3
+hold left 0.6
+hold forward+sprint 0.9
+hold forward+left 0.3
+hold right 0.2
+room wh09_arena2
+wait 0.4
+press dash
+press pause
+press down
+press attack
+press up
+press confirm
+wait 0.3
+press jump
+room wh12_thron
+hold right 0.4
+press interact
+look 1e-1 0e-1
+press attack
+hold forward+sprint 0.5
+wait 0.5
+hold forward+right 0.1
+hold forward+left 0.1
+wait 0.4
+room wh01_pforte
+wait 0.4
+hold forward 0.5
+hold forward+right 0.6
+press cancel
+hold left 0.1
+press ui_left
+hold forward+sprint 0.7
+press cancel
+boss_hp 0.6
+look -2e-1 -1e-1
+hold back+left 0.9
+hold forward+left 0.7
+wait 0.2
+press confirm
+wait 0.3
+segen_menu
+wait 0.3
+press pause
+press confirm
+press attack
+press attack
+hold forward+right 0.2
+press confirm
+hold forward+left 0.2
+room wh13_ende
+wait 0.1
+press ui_right
+press up
+press interact
+press up
+press dodge
+press down
+hold forward+right 0.1
+segen_menu
+wait 0.1
+press ui_left
+hold forward+right 0.3
+room wh07_schatz
+press ui_right
+hold forward+left 0.8
+hold forward+sprint 0.8
+hold back+left 0.6
+press attack
+hold forward+left 0.1
+hold back+left 0.3
+press dodge
+wait 0.2
+hurt 48
+press dodge
+wait 0.2
+press attack
+hold back+left 0.3
+hold back+left 0.7
+wait 0.1
+wait 0.5
+look 4e-1 -2e-1
+hold back+left 0.4
+hold forward+right 0.3
+press attack
+hold forward+sprint 0.1
+room wh07_schatz
+press pause
+press attack
+wait 0.5
+boss_hp 0.7
+press cancel
+kill_all
+hold right 0.5
+look 2e-1 -2e-1
+room wh09_arena2
+press attack
+wait 0.5
+hold forward 0.5
+look 4e-1 1e-1
+hold right 0.7
+hold right 0.4
+hold forward+sprint 0.2
+hold forward+right 0.1
+hold left 0.1
+press cancel
+wait 0.2
+hold left 0.5
+press attack
+look 4e-1 0e-1
+hold left 0.4
+wait 0.4
+room wh04_halle
+press dodge
+press pause
+hold forward+left 0.2
+press down
+wait 0.2
+segen_menu
+press attack
+kill_all
+room wh02_gang
+kill_all
+wait 0.1
+press dodge
+hold forward+sprint 0.8
+press confirm
+look 2e-1 2e-1
+press cancel
+press up
+hold back+left 0.7
+hold right 0.2
+heal
+hold left 0.6
+hold forward+sprint 0.3
+wait 0.3
+press secondary
+wait 0.1
+boss_hp 0.5
+press attack
+hold back 0.9
+wait 0.2
+press attack
+press jump
+hold right 0.1
+press down
+press attack
+press cancel
+hold forward+left 0.8
+press cancel
+hold forward 0.1
+look -4e-1 0e-1
+hold right 0.6
+wait 0.5
+press heal
+hold left 0.6
+wait 0.4
+press cancel
+wait 0.5
+hold forward+right 0.6
+press dodge
+hold left 0.2
+hold forward+sprint 0.2
+press confirm
+press secondary
+hold forward 0.4
+hold forward+right 0.7
+hold forward+right 0.8
+hold back 0.5
+segen_menu
+press dodge
+room wh04_halle
+boss_hp 0.1
+wait 0.2
+hold back+left 0.7
+hold forward+right 0.6
+press confirm
+press jump
+press down
+wait 0.5
+press heal
+hold forward+right 0.5
+hold right 0.4
+wait 0.4
+press pause
+press up
+wait 0.5
+hold forward+sprint 0.2
+press dash
+hold forward 0.2
+hold forward+right 0.8
+press ui_right
+press pause
+hold back 0.9
+hold back+left 0.2
+wait 0.5
+press confirm
+wait 0.4
+wait 0.2
+hold back 0.6
+hurt 63
+wait 0.1
+hold back+left 0.1
+press attack
+kill_all
+hurt 14
+hold forward+sprint 0.4
+heal
+hold right 0.5
+hold forward+right 0.5
+wait 0.3
+hold left 0.8
+boss_hp 0.7
+hold forward+sprint 0.3
+hold left 0.2
+press dash
+press down
+press dodge
+hurt 24
+wait 0.2
+hold back+left 0.5
+press attack
+wait 0.1
+press jump
+hold back 0.2
+wait 0.5
+boss_hp 0.7
+press cancel
+press ui_left
+press dash
+hold left 0.9
+wait 0.3
+press down
+press cancel
+press confirm
+wait 0.1
+hold left 0.7
+hold forward+sprint 0.5
+press down
+hold left 0.1
+wait 0.3
+heal
+kill_all
+hold back 0.6
+hold back 0.9
+press ui_left
+press down
+press pause
+look 4e-1 1e-1
+hold right 0.1
+press confirm
+hold forward+left 0.4
+wait 0.4
+hold forward+left 0.2
+wait 0.5
+press attack
+hold forward+right 0.7
+press dodge
+wait 0.3
+hold forward 0.6
+press pause
+press cancel
+wait 0.4
+hold forward+sprint 0.9
+hold left 0.8
+hold back 0.4
+hold forward+sprint 0.7
+kill_all
+look -4e-1 0e-1
+hold forward+left 0.9
+press jump
+wait 0.1
+press up
+press interact
+hold forward 0.7
+hold forward 0.7
+wait 0.3
+hold forward+sprint 0.6
+room wh08_wind
+hold right 0.8
+hold back+left 0.7
+press heal
+heal
+hold forward+right 0.8
+hold forward+right 0.9
+heal
+wait 0.2
+hold right 0.1
+wait 0.2
+hold forward+left 0.1
+hold forward 0.5
+hold left 0.2
+wait 0.4
+look -2e-1 1e-1
+press ui_right
+hold left 0.2
+press dodge
+look 0e-1 1e-1
+kill_all
+hold left 0.8
+hold forward+right 0.7
+hold forward 0.9
+press pause
+press cancel
+wait 0.1
+press attack
+hold forward+left 0.8
+press down
+wait 0.5
+wait 0.2
+press ui_left
+wait 0.1
+press attack
+wait 0.3
+heal
+press interact
+hold back+left 0.3
+wait 0.4
+press dodge
+wait 0.2
+press cancel
+hold back 0.3
+press cancel
+press ui_left
+hold forward+sprint 0.5
+wait 0.1
+hold back 0.6
+hurt 6
+room wh01_pforte
+press attack
+look 1e-1 2e-1
+hold back 0.6
+look -1e-1 0e-1
+press attack
+wait 0.2
+hold forward 0.7
+room wh12_thron
+look 1e-1 -2e-1
+wait 0.3
+hold forward 0.8
+segen_menu
+hold forward+sprint 0.7
+kill_all
+press dash
+look 3e-1 -2e-1
+wait 0.4
+wait 0.3
+hold right 0.4
+press dodge
+press interact
+look -2e-1 0e-1
+hold forward+left 0.3
+hold forward 0.6
+look -3e-1 2e-1
+hold forward+left 0.8
+look 2e-1 0e-1
+wait 0.4
+hold forward 0.4
+hold left 0.8
+wait 0.4
+wait 0.3
+hold forward+sprint 0.7
+press confirm
+room wh01_pforte
+look 0e-1 -2e-1
+kill_all
+hold back+left 0.6
+hold forward+right 0.1
+hold forward+left 0.5
+hold left 0.2
+press jump
+hold left 0.3
+press jump
+press dash
+hold forward+right 0.4
+status
+quit

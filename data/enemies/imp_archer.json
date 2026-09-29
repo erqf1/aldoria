@@ -1,0 +1,22 @@
+{
+  "id": "imp_archer",
+  "name": "Kobold-Schütze",
+  "behavior": "ranged",
+  "max_health": 22,
+  "radius": 0.4,
+  "height": 1.0,
+  "chase_speed": 3.3,
+  "sight_range": 16,
+  "lose_range": 24,
+  "preferred_min": 6,
+  "preferred_max": 10,
+  "shoot_cooldown": 2.3,
+  "telegraph": 0.75,
+  "attack_recovery": 0.6,
+  "projectile_speed": 13,
+  "damage": 9,
+  "stagger": 0.35,
+  "interruptible": true,
+  "color": [96, 122, 196],
+  "health_drop_chance": 0.15
+}

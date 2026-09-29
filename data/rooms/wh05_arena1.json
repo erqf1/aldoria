@@ -1,0 +1,49 @@
+{
+  "id": "wh05_arena1",
+  "name": "Die Kobold-Arena",
+  "type": "arena",
+  "environment": {
+    "sun_direction": [-0.35, -0.8, -0.35],
+    "sun_color": [0.95, 0.82, 0.62],
+    "sky_ambient": [0.36, 0.4, 0.44],
+    "ground_ambient": [0.22, 0.18, 0.15],
+    "fog_color": [0.46, 0.46, 0.42],
+    "sky_top_color": [0.3, 0.36, 0.44],
+    "fog_start": 24,
+    "fog_end": 80
+  },
+  "shell": { "size": [30, 30], "height": 8, "color": [112, 104, 94] },
+  "ground": { "color": [86, 78, 66] },
+  "player_spawn": [0, 0, 12],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "arena", "target": "wh04_halle:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "arena", "target": "wh06_rast1:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-7, 2, -2], "size": [1.6, 4, 1.6], "color": [130, 122, 114] },
+    { "tag": "pillar", "center": [7, 2, -2], "size": [1.6, 4, 1.6], "color": [130, 122, 114] },
+    { "tag": "pillar", "center": [-7, 2, 6], "size": [1.6, 4, 1.6], "color": [130, 122, 114] },
+    { "tag": "pillar", "center": [7, 2, 6], "size": [1.6, 4, 1.6], "color": [130, 122, 114] }
+  ],
+  "encounter": {
+    "waves": [
+      [ { "type": "forest_imp", "count": 3 } ],
+      [ { "type": "forest_imp", "count": 2 }, { "type": "leaper", "count": 1 } ],
+      [ { "type": "imp_archer", "count": 2 }, { "type": "forest_imp", "count": 2 } ]
+    ],
+    "spawn_points": [ [-9, 0, -9], [9, 0, -9], [-10, 0, 2], [10, 0, 2] ],
+    "reward": "segen"
+  },
+  "decor": [
+    { "kind": "torch", "position": [-13.2, 0, -8] },
+    { "kind": "torch", "position": [13.2, 0, -8] },
+    { "kind": "torch", "position": [-13.2, 0, 8] },
+    { "kind": "torch", "position": [13.2, 0, 8] },
+    { "kind": "rock", "position": [-11, 0, -12], "scale": 1.3 },
+    { "kind": "rock", "position": [11, 0, 12], "scale": 1.1 }
+  ],
+  "scatter": [
+    { "kind": "tree", "count": 36, "seed": 61, "margin": 16 },
+    { "kind": "pine", "count": 20, "seed": 62, "margin": 18 }
+  ]
+}

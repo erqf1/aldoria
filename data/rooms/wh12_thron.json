@@ -1,0 +1,45 @@
+{
+  "id": "wh12_thron",
+  "name": "Der Wurzelthron",
+  "type": "boss",
+  "environment": {
+    "sun_direction": [-0.35, -0.75, -0.4],
+    "sun_color": [1.0, 0.7, 0.5],
+    "sky_ambient": [0.38, 0.3, 0.34],
+    "ground_ambient": [0.24, 0.16, 0.14],
+    "fog_color": [0.4, 0.28, 0.28],
+    "sky_top_color": [0.26, 0.2, 0.3],
+    "fog_start": 24,
+    "fog_end": 90
+  },
+  "shell": { "size": [40, 40], "height": 10, "color": [102, 90, 90] },
+  "ground": { "color": [82, 66, 60] },
+  "player_spawn": [0, 0, 17],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 5, "height": 5.5, "kind": "arena", "target": "wh11_vorhalle:n" },
+    { "id": "exit", "side": "east", "x": -10, "width": 5, "height": 5.5, "kind": "boss_defeated", "target": "wh13_ende:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-11, 3, 4], "size": [1.8, 6, 1.8], "color": [126, 110, 106] },
+    { "tag": "pillar", "center": [11, 3, 4], "size": [1.8, 6, 1.8], "color": [126, 110, 106] },
+    { "tag": "pillar", "center": [-11, 3, -8], "size": [1.8, 6, 1.8], "color": [126, 110, 106] },
+    { "tag": "pillar", "center": [11, 3, -8], "size": [1.8, 6, 1.8], "color": [126, 110, 106] },
+    { "tag": "throne", "center": [0, 0.6, -16.5], "size": [6, 1.2, 3], "color": [120, 96, 86] },
+    { "tag": "throne", "center": [0, 2.0, -17.6], "size": [4, 4, 0.8], "color": [126, 100, 90] }
+  ],
+  "boss": { "type": "kobold_king", "position": [0, 0, -9] },
+  "decor": [
+    { "kind": "torch", "position": [-6, 0, 18.5] },
+    { "kind": "torch", "position": [6, 0, 18.5] },
+    { "kind": "torch", "position": [-19, 0, 0] },
+    { "kind": "torch", "position": [19, 0, 0] },
+    { "kind": "torch", "position": [-19, 0, -12] },
+    { "kind": "torch", "position": [19, 0, -12] },
+    { "kind": "rock", "position": [-16, 0, 12], "scale": 1.6 },
+    { "kind": "rock", "position": [16, 0, 12], "scale": 1.5 }
+  ],
+  "scatter": [
+    { "kind": "pine", "count": 40, "seed": 121, "margin": 18 },
+    { "kind": "tree", "count": 20, "seed": 122, "margin": 18 }
+  ]
+}

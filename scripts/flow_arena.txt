@@ -1,0 +1,27 @@
+# Ablauf 2: Arena mit drei Wellen, danach Segenwahl
+wait 0.4
+new_game
+wait 1.0
+god on
+room wh05_arena1
+wait 3.5
+status
+shot a1_wave1
+kill_all
+wait 3.5
+status
+shot a1_wave2
+kill_all
+wait 3.5
+status
+shot a1_wave3
+kill_all
+wait 1.5
+status
+shot a2_segen
+press right
+press confirm
+wait 0.5
+status
+shot a3_after
+quit

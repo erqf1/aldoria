@@ -1,0 +1,17 @@
+# Umhang von der Seite: stehend, im Sprint, im Sprung
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+teleport 0 0 8 3.14159
+cam 4.5 1.5 6 0 1.1 6 55
+wait 1.0
+shot cape_side_stand
+hold forward+sprint 0.55
+shot cape_side_run
+press jump
+hold forward+sprint 0.12
+shot cape_side_jump
+wait 1.0
+quit

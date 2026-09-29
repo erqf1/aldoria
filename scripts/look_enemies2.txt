@@ -1,0 +1,38 @@
+# Gegner nah, Spieler weit weg (die Gegner bleiben ruhig)
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+room dev_playground
+wait 0.5
+kill_all
+teleport 0 0 40 3.14159
+spawn forest_imp -1.6 0
+spawn imp_archer 0.4 0
+spawn leaper 2.2 0
+spawn brute 4.6 0
+wait 0.5
+cam 1.6 1.6 6.3 1.6 0.9 0 42
+shot e2_kobolds_front
+cam 1.6 1.7 -5.5 1.6 0.9 0 42
+shot e2_kobolds_back
+cam 9.0 1.4 0.5 1.6 0.9 0 42
+shot e2_kobolds_side
+kill_all
+spawn ember_imp -1.6 0
+spawn ember_archer 0.4 0
+spawn cinder_leaper 2.2 0
+spawn magma_brute 4.6 0
+wait 0.5
+cam 1.6 1.6 6.3 1.6 0.9 0 42
+shot e2_ember_front
+kill_all
+spawn wind_imp -1.6 0
+spawn storm_archer 0.4 0
+spawn gale_leaper 2.2 0
+spawn gale_brute 4.6 0
+wait 0.5
+cam 1.6 1.6 6.3 1.6 0.9 0 42
+shot e2_storm_front
+quit

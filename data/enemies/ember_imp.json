@@ -1,0 +1,23 @@
+{
+  "id": "ember_imp",
+  "name": "Glutkobold",
+  "behavior": "melee",
+  "max_health": 42,
+  "radius": 0.47,
+  "height": 1.15,
+  "chase_speed": 3.9,
+  "sight_range": 10,
+  "lose_range": 17,
+  "attack_range": 1.75,
+  "telegraph": 0.55,
+  "attack_active": 0.2,
+  "attack_recovery": 0.85,
+  "attack_lunge_speed": 8,
+  "attack_half_angle_deg": 60,
+  "damage": 12,
+  "knockback": 6,
+  "stagger": 0.32,
+  "interruptible": true,
+  "color": [236, 120, 52],
+  "health_drop_chance": 0.14
+}

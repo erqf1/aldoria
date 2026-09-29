@@ -1,0 +1,11 @@
+# Titel, neues Spiel, ein Stück laufen
+wait 0.4
+shot t_title
+new_game
+wait 1.2
+debug on
+shot t_start
+hold forward 1.0
+status
+shot t_walk
+quit

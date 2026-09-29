@@ -1,0 +1,27 @@
+# Aussehen der Spielfigur: Ruhe, Laufen, Schlag, Ausweichen, Dash (feste Kameras aus der Nähe)
+wait 0.4
+new_game
+wait 1.0
+god on
+kill_all
+cam 2.6 1.7 11.0  0 1.0 8  55
+wait 0.4
+shot h1_idle_front
+cam -2.6 1.7 5.0  0 1.0 8  55
+shot h2_idle_back
+cam off
+hold forward+sprint 0.7
+shot h3_run_follow
+teleport 0 0 8 3.14159
+cam 3.4 1.5 6.5  0 1.0 7  55
+press attack
+wait 0.16
+shot h4_swing
+give dash
+teleport 0 0 8 3.14159
+wait 0.2
+cam 4.0 1.4 5.0  0 1.0 6  55
+press dodge
+wait 0.12
+shot h5_dodge
+quit

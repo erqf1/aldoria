@@ -1,0 +1,32 @@
+# Ablauf 3: Bosskampf durch alle Phasen, danach Tor und Ende
+wait 0.4
+new_game
+wait 1.0
+god on
+room wh12_thron
+wait 0.5
+teleport 0 0 4 3.14159
+wait 2.5
+shot b1_intro
+wait 3
+shot b1_fight
+boss_hp 0.6
+wait 3.5
+shot b2_phase2
+boss_hp 0.3
+wait 3.5
+shot b3_phase3
+wait 6
+shot b3_later
+kill_all
+wait 1.5
+shot b4_dead
+# Belohnung (Herz) einsammeln, dann durch die Ausgangstür an der Ostwand
+teleport 0 0 -9 3.14159
+wait 0.8
+teleport 15 0 -10 1.5708
+hold forward 1.5
+wait 1.5
+status
+shot b5_ende
+quit

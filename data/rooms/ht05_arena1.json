@@ -1,0 +1,278 @@
+{
+  "id": "ht05_arena1",
+  "name": "Die Windarena",
+  "type": "arena",
+  "environment": {
+    "sun_direction": [
+      -0.4,
+      -0.85,
+      -0.3
+    ],
+    "sun_color": [
+      1.0,
+      0.96,
+      0.88
+    ],
+    "sky_ambient": [
+      0.52,
+      0.62,
+      0.8
+    ],
+    "ground_ambient": [
+      0.36,
+      0.4,
+      0.5
+    ],
+    "fog_color": [
+      0.72,
+      0.82,
+      0.95
+    ],
+    "sky_top_color": [
+      0.42,
+      0.62,
+      0.95
+    ],
+    "fog_start": 30,
+    "fog_end": 110
+  },
+  "shell": {
+    "size": [
+      32,
+      32
+    ],
+    "height": 8,
+    "color": [
+      150,
+      158,
+      176
+    ],
+    "cap_color": [
+      235,
+      245,
+      255
+    ]
+  },
+  "ground": {
+    "color": [
+      138,
+      146,
+      162
+    ]
+  },
+  "player_spawn": [
+    0,
+    0,
+    13
+  ],
+  "doors": [
+    {
+      "id": "s",
+      "side": "south",
+      "x": 0,
+      "width": 4,
+      "kind": "arena",
+      "target": "ht04_luecken:n"
+    },
+    {
+      "id": "n",
+      "side": "north",
+      "x": 0,
+      "width": 4,
+      "kind": "arena",
+      "target": "ht06_rast1:s"
+    }
+  ],
+  "boxes": [
+    {
+      "tag": "pillar",
+      "center": [
+        -8,
+        2.0,
+        -3
+      ],
+      "size": [
+        1.6,
+        4,
+        1.6
+      ],
+      "color": [
+        196,
+        204,
+        222
+      ]
+    },
+    {
+      "tag": "pillar",
+      "center": [
+        8,
+        2.0,
+        -3
+      ],
+      "size": [
+        1.6,
+        4,
+        1.6
+      ],
+      "color": [
+        196,
+        204,
+        222
+      ]
+    },
+    {
+      "tag": "pillar",
+      "center": [
+        -8,
+        2.0,
+        6
+      ],
+      "size": [
+        1.6,
+        4,
+        1.6
+      ],
+      "color": [
+        196,
+        204,
+        222
+      ]
+    },
+    {
+      "tag": "pillar",
+      "center": [
+        8,
+        2.0,
+        6
+      ],
+      "size": [
+        1.6,
+        4,
+        1.6
+      ],
+      "color": [
+        196,
+        204,
+        222
+      ]
+    }
+  ],
+  "decor": [
+    {
+      "kind": "lamp",
+      "position": [
+        -14.2,
+        0,
+        -8
+      ]
+    },
+    {
+      "kind": "lamp",
+      "position": [
+        14.2,
+        0,
+        -8
+      ]
+    },
+    {
+      "kind": "lamp",
+      "position": [
+        -14.2,
+        0,
+        8
+      ]
+    },
+    {
+      "kind": "lamp",
+      "position": [
+        14.2,
+        0,
+        8
+      ]
+    }
+  ],
+  "scatter": [
+    {
+      "kind": "cloud",
+      "count": 26,
+      "seed": 451,
+      "margin": 20,
+      "min_scale": 1.2,
+      "max_scale": 2.6
+    },
+    {
+      "kind": "spire",
+      "count": 10,
+      "seed": 452,
+      "margin": 15,
+      "min_scale": 1.0,
+      "max_scale": 2.0
+    }
+  ],
+  "encounter": {
+    "waves": [
+      [
+        {
+          "type": "wind_imp",
+          "count": 3
+        },
+        {
+          "type": "storm_archer",
+          "count": 1
+        }
+      ],
+      [
+        {
+          "type": "gale_leaper",
+          "count": 2
+        },
+        {
+          "type": "wind_imp",
+          "count": 2
+        }
+      ],
+      [
+        {
+          "type": "gale_brute",
+          "count": 1
+        },
+        {
+          "type": "storm_archer",
+          "count": 2
+        },
+        {
+          "type": "wind_imp",
+          "count": 1
+        }
+      ]
+    ],
+    "spawn_points": [
+      [
+        -11,
+        0,
+        -11
+      ],
+      [
+        11,
+        0,
+        -11
+      ],
+      [
+        0,
+        0,
+        -13
+      ],
+      [
+        -12,
+        0,
+        2
+      ],
+      [
+        12,
+        0,
+        2
+      ]
+    ],
+    "reward": "segen"
+  }
+}

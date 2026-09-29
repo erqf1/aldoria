@@ -1,0 +1,52 @@
+{
+  "id": "gs02_lavagang",
+  "name": "Der Lavastrom",
+  "type": "platform",
+  "environment": {
+    "sun_direction": [-0.35, -0.75, -0.4],
+    "sun_color": [1.0, 0.7, 0.48],
+    "sky_ambient": [0.42, 0.3, 0.3],
+    "ground_ambient": [0.3, 0.16, 0.12],
+    "fog_color": [0.4, 0.2, 0.15],
+    "sky_top_color": [0.24, 0.14, 0.2],
+    "fog_start": 26,
+    "fog_end": 100
+  },
+  "shell": { "size": [26, 40], "height": 8, "color": [78, 64, 68], "cap_color": [190, 84, 36] },
+  "ground": { "color": [60, 48, 48] },
+  "player_spawn": [0, 0, 17.5],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "gs01_tor:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "open", "target": "gs03_kessel:s" }
+  ],
+  "boxes": [
+    { "tag": "island", "center": [8, 0.15, -1], "size": [3, 0.3, 3], "color": [122, 100, 100] }
+  ],
+  "hazards": [
+    { "kind": "lava", "center": [0, -0.1, -1], "size": [24, 0.3, 7], "damage": 20 }
+  ],
+  "platforms": [
+    { "id": "ferry", "kind": "moving", "size": [4, 0.6, 4], "path": [[0, 0, 5], [0, 0, -7.5]], "speed": 2.4, "pause": 1.0, "color": [130, 110, 96] }
+  ],
+  "enemies": [
+    { "type": "ember_archer", "position": [8, 0, -10] },
+    { "type": "ember_archer", "position": [-8, 0, -10] },
+    { "type": "ember_imp", "position": [0, 0, -14] }
+  ],
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [10, 0.6, -15] },
+    { "id": "shard_b", "type": "shard", "position": [-10, 0.6, 10] },
+    { "id": "key_essen", "type": "small_key", "position": [8, 0.9, -1] }
+  ],
+  "decor": [
+    { "kind": "brazier", "position": [2.8, 0, -18.6] },
+    { "kind": "brazier", "position": [-2.8, 0, -18.6] },
+    { "kind": "brazier", "position": [-11.5, 0, 6] },
+    { "kind": "brazier", "position": [11.5, 0, 6] }
+  ],
+  "scatter": [
+    { "kind": "obsidian", "count": 30, "seed": 311, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "rock", "count": 16, "seed": 312, "margin": 16, "min_scale": 1.0, "max_scale": 2.0 },
+    { "kind": "obsidian", "count": 6, "seed": 313, "region": "inside", "min_scale": 0.7, "max_scale": 1.2 }
+  ]
+}

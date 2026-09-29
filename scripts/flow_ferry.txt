@@ -1,0 +1,21 @@
+# Lavastrom ohne Dash: Fähre nutzen und ohne Schaden ans Nordufer kommen
+wait 0.4
+new_game
+wait 0.8
+room gs02_lavagang s
+wait 0.3
+teleport 0 0 5 3.14159
+wait 0.5
+status
+wait 2
+status
+shot f1_mid
+wait 3
+status
+shot f2_far
+wait 1.5
+status
+hold forward 1.5
+wait 0.3
+status
+quit

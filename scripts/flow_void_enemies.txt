@@ -1,0 +1,25 @@
+# Gegner in Räumen mit Abgründen: sie dürfen nicht ins Leere laufen oder springen
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+room wh08_wind
+wait 0.5
+teleport 0 0 17.6 3.14159
+wait 12
+status
+room ht04_luecken
+wait 0.5
+teleport 0 0 17.5 3.14159
+wait 12
+status
+teleport 0 0 5.5 3.14159
+wait 12
+status
+room ht07_kristalle
+wait 0.5
+teleport 0 0 10.5 3.14159
+wait 12
+status
+quit

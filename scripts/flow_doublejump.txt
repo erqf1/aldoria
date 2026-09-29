@@ -1,0 +1,19 @@
+# Doppelsprung ueber die 6-m-Luecke in ht04 (Insel 1 nach Insel 2), echte Physik mit Sprint
+wait 0.4
+new_game
+wait 0.8
+god on
+give double_jump
+room ht04_luecken s
+wait 0.5
+teleport 0 0 9.4 3.14159
+wait 0.6
+hold forward+sprint 0.40
+hold forward+sprint+jump 0.08
+hold forward+sprint+jump 0.20
+hold forward+sprint 0.017
+hold forward+sprint+jump 0.50
+wait 1.0
+status
+shot dj_landed
+quit

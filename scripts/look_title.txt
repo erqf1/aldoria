@@ -1,0 +1,5 @@
+wait 0.8
+shot ti1
+wait 3
+shot ti2
+quit

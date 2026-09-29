@@ -1,0 +1,40 @@
+{
+  "id": "wh06_rast1",
+  "name": "Der Lichtungsschrein",
+  "type": "rest",
+  "environment": {
+    "sun_direction": [-0.3, -0.8, -0.3],
+    "sun_color": [1.0, 0.86, 0.6],
+    "sky_ambient": [0.4, 0.48, 0.5],
+    "ground_ambient": [0.26, 0.22, 0.16],
+    "fog_color": [0.52, 0.6, 0.52],
+    "sky_top_color": [0.34, 0.5, 0.56],
+    "fog_start": 24,
+    "fog_end": 90
+  },
+  "shell": { "size": [20, 20], "height": 7, "color": [100, 112, 96] },
+  "ground": { "color": [72, 100, 68] },
+  "player_spawn": [0, 0, 6],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "open", "target": "wh05_arena1:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "open", "target": "wh07_schatz:s" }
+  ],
+  "checkpoint": { "position": [0, 0, -3] },
+  "pickups": [
+    { "id": "shard_a", "type": "shard", "position": [6, 0.6, 3] },
+    { "id": "shard_b", "type": "shard", "position": [-6, 0.6, 3] }
+  ],
+  "decor": [
+    { "kind": "torch", "position": [3.5, 0, -1.5] },
+    { "kind": "torch", "position": [-3.5, 0, -1.5] },
+    { "kind": "bush", "position": [-7, 0, -6], "scale": 1.2 },
+    { "kind": "bush", "position": [7, 0, -6], "scale": 1.2 },
+    { "kind": "log", "position": [-6, 0, 6], "scale": 1.0, "yaw": 0.4 }
+  ],
+  "scatter": [
+    { "kind": "tree", "count": 36, "seed": 71, "margin": 15 },
+    { "kind": "pine", "count": 20, "seed": 72, "margin": 17 },
+    { "kind": "mushroom", "count": 12, "seed": 73, "region": "inside", "min_scale": 0.9, "max_scale": 1.8 },
+    { "kind": "bush", "count": 8, "seed": 74, "region": "inside", "min_scale": 0.8, "max_scale": 1.2 }
+  ]
+}

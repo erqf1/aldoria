@@ -1,0 +1,29 @@
+# Ablauf 8: Endlos-Arena: ein paar Wellen, Segen nach Welle 3, dann sterben
+wait 0.4
+arena
+wait 1.2
+god on
+wait 3.5
+status
+shot e1_wave1
+kill_all
+wait 4.0
+status
+kill_all
+wait 4.0
+status
+shot e2_wave3
+kill_all
+wait 2.0
+status
+shot e3_segen
+press confirm
+wait 0.5
+god off
+hurt 500
+wait 5.0
+shot e4_over
+press confirm
+wait 1.5
+status
+quit

@@ -1,0 +1,63 @@
+# Rundgang durch den Himmelsturm (Dungeon 3)
+wait 0.5
+new_game
+wait 0.8
+god on
+debug off
+room ht01_fuss
+cam 0 20 20  0 0 -3  62
+wait 0.4
+shot ht_ht01_fuss
+room ht02_treppe
+cam 0 26 34  0 -2 -2  62
+wait 0.4
+shot ht_ht02_treppe
+room ht03_feder
+cam 0 22 22  0 0 -4  62
+wait 0.4
+shot ht_ht03_feder
+room ht04_luecken
+cam 0 30 38  0 -2 -2  62
+wait 0.4
+shot ht_ht04_luecken
+room ht04b_wolkenkammer
+cam 0 16 14  -3 0 0  62
+wait 0.4
+shot ht_ht04b_wolkenkammer
+room ht05_arena1
+cam 0 26 24  0 0 -3  62
+wait 0.4
+shot ht_ht05_arena1
+room ht06_rast1
+cam 0 16 16  0 0 -3  62
+wait 0.4
+shot ht_ht06_rast1
+room ht07_kristalle
+cam 0 28 30  0 -2 -2  62
+wait 0.4
+shot ht_ht07_kristalle
+room ht08_windbruecke
+cam 0 34 44  0 -2 -2  62
+wait 0.4
+shot ht_ht08_windbruecke
+room ht09_arena2
+cam 0 28 26  0 0 -3  62
+wait 0.4
+shot ht_ht09_arena2
+room ht10_rast2
+cam 0 16 16  0 0 -3  62
+wait 0.4
+shot ht_ht10_rast2
+room ht11_vorhalle
+cam 0 22 22  0 0 -3  62
+wait 0.4
+shot ht_ht11_vorhalle
+room ht12_spitze
+cam 0 34 30  0 0 -6  62
+wait 0.4
+shot ht_ht12_spitze
+room ht13_ende
+cam 0 16 16  0 0 -3  62
+wait 0.4
+shot ht_ht13_ende
+quit

@@ -1,0 +1,26 @@
+# Boss: Feuerbälle treffen jetzt am Boden, neue Angriffe (Ansturm, Meteore, Spiralfeuer)
+wait 0.4
+new_game
+wait 1.0
+room wh12_thron s
+wait 0.5
+teleport 0 0 4 3.14159
+wait 1.5
+status
+boss_hp 0.55
+wait 4
+status
+shot bb1
+wait 3
+shot bb2
+status
+wait 3
+shot bb3
+status
+wait 3
+shot bb4
+status
+wait 3
+shot bb5
+status
+quit

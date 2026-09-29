@@ -1,0 +1,50 @@
+{
+  "id": "wh09_arena2",
+  "name": "Die Große Arena",
+  "type": "arena",
+  "environment": {
+    "sun_direction": [-0.35, -0.8, -0.35],
+    "sun_color": [0.95, 0.76, 0.56],
+    "sky_ambient": [0.36, 0.36, 0.42],
+    "ground_ambient": [0.22, 0.17, 0.15],
+    "fog_color": [0.46, 0.42, 0.4],
+    "sky_top_color": [0.3, 0.32, 0.42],
+    "fog_start": 24,
+    "fog_end": 84
+  },
+  "shell": { "size": [32, 32], "height": 8, "color": [112, 102, 96] },
+  "ground": { "color": [88, 76, 66] },
+  "player_spawn": [0, 0, 13],
+  "doors": [
+    { "id": "s", "side": "south", "x": 0, "width": 4, "kind": "arena", "target": "wh08_wind:n" },
+    { "id": "n", "side": "north", "x": 0, "width": 4, "kind": "arena", "target": "wh10_rast2:s" }
+  ],
+  "boxes": [
+    { "tag": "pillar", "center": [-8, 2, -3], "size": [1.6, 4, 1.6], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [8, 2, -3], "size": [1.6, 4, 1.6], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [0, 2, -9], "size": [1.6, 4, 1.6], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [-8, 2, 6], "size": [1.6, 4, 1.6], "color": [130, 120, 112] },
+    { "tag": "pillar", "center": [8, 2, 6], "size": [1.6, 4, 1.6], "color": [130, 120, 112] }
+  ],
+  "encounter": {
+    "waves": [
+      [ { "type": "imp_archer", "count": 2 }, { "type": "forest_imp", "count": 2 } ],
+      [ { "type": "brute", "count": 1 }, { "type": "forest_imp", "count": 2 } ],
+      [ { "type": "leaper", "count": 3 }, { "type": "imp_archer", "count": 2 } ]
+    ],
+    "spawn_points": [ [-11, 0, -11], [11, 0, -11], [0, 0, -13], [-12, 0, 3], [12, 0, 3] ],
+    "reward": "segen"
+  },
+  "decor": [
+    { "kind": "torch", "position": [-14.2, 0, -8] },
+    { "kind": "torch", "position": [14.2, 0, -8] },
+    { "kind": "torch", "position": [-14.2, 0, 8] },
+    { "kind": "torch", "position": [14.2, 0, 8] },
+    { "kind": "rock", "position": [-12, 0, -13], "scale": 1.4 },
+    { "kind": "rock", "position": [12, 0, 13], "scale": 1.2 }
+  ],
+  "scatter": [
+    { "kind": "tree", "count": 36, "seed": 91, "margin": 16 },
+    { "kind": "pine", "count": 20, "seed": 92, "margin": 18 }
+  ]
+}

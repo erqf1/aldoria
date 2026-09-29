@@ -1,0 +1,23 @@
+wait 0.4
+new_game
+wait 1.0
+god on
+debug off
+room dev_playground
+wait 0.5
+kill_all
+teleport 0 0 40 3.14159
+spawn cinder_leaper 0 0
+wait 0.5
+cam 0 1.2 2.6 0 0.5 0 42
+shot l1
+cam 2.6 1.2 0 0 0.5 0 42
+shot l2
+cam 0 3 2.0 0 0.4 0 45
+shot l3
+kill_all
+spawn leaper 0 0
+wait 0.5
+cam 0 1.2 2.6 0 0.5 0 42
+shot l4
+quit

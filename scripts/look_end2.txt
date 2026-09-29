@@ -1,0 +1,15 @@
+wait 0.4
+new_game
+wait 0.8
+god on
+next_dungeon
+wait 1.5
+room gs11_ende s
+wait 1.0
+shot end2_complete
+press down
+press confirm
+wait 1.0
+status
+shot end2_explore
+quit

@@ -1,0 +1,13 @@
+wait 0.4
+new_game
+wait 0.8
+debug on
+god on
+room wh09_arena2 s
+wait 2.5
+shot perf_arena
+room gs10_kern s
+teleport 0 0 4 3.14159
+wait 4
+shot perf_boss
+quit

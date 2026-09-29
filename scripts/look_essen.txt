@@ -1,0 +1,19 @@
+wait 0.4
+new_game
+wait 0.8
+god on
+give key 1
+room gs02_lavagang s
+cam 0 26 30  0 0 -2  62
+wait 0.3
+shot e_lavagang
+room gs03_kessel w
+wait 1.0
+shot e_kessel_west
+room gs03b_essenkammer e
+wait 1.0
+shot e_kammer_arrival
+cam 0 20 14  -3 0 0  62
+wait 0.3
+shot e_kammer_over
+quit

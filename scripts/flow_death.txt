@@ -1,0 +1,22 @@
+# Ablauf 4: Ruheplatz, Speichern, Tod, Wiederbeleben (ohne Unverwundbarkeit)
+wait 0.4
+new_game
+wait 1.0
+kill_all
+# Schrein steht bei (-10, 0, 8): hingehen und ausruhen
+teleport -8.5 0 8 1.5708
+wait 0.5
+press interact
+wait 0.8
+status
+shot d1_rest
+# In einen anderen Raum gehen, dort sterben, im Ruheraum wieder aufwachen
+room wh02_gang
+wait 0.5
+hurt 250
+wait 1.0
+shot d2_dead
+wait 4.0
+status
+shot d3_respawn
+quit

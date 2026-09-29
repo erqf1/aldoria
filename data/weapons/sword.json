@@ -1,0 +1,25 @@
+{
+  "id": "sword",
+  "name": "Rostiges Schwert",
+  "combo_window": 0.45,
+  "attacks": [
+    {
+      "name": "Hieb",
+      "damage": 12, "windup": 0.09, "active": 0.12, "recovery": 0.20,
+      "range": 2.3, "half_angle_deg": 55, "lunge": 1.0, "knockback": 5.0, "hitstop": 0.05,
+      "sweep_from_deg": -75, "sweep_to_deg": 75, "move_scale": 0.35
+    },
+    {
+      "name": "Rückhieb",
+      "damage": 14, "windup": 0.08, "active": 0.12, "recovery": 0.20,
+      "range": 2.3, "half_angle_deg": 55, "lunge": 1.0, "knockback": 5.5, "hitstop": 0.055,
+      "sweep_from_deg": 75, "sweep_to_deg": -75, "move_scale": 0.35
+    },
+    {
+      "name": "Wirbel",
+      "damage": 22, "windup": 0.16, "active": 0.20, "recovery": 0.42,
+      "range": 2.6, "half_angle_deg": 180, "lunge": 0.5, "knockback": 9.0, "hitstop": 0.10,
+      "sweep_from_deg": -180, "sweep_to_deg": 180, "move_scale": 0.2
+    }
+  ]
+}

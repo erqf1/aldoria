@@ -1,0 +1,20 @@
+# Karte: Ansicht nach ein paar besuchten Räumen (M öffnet direkt)
+wait 0.4
+new_game
+wait 0.8
+god on
+room wh02_gang s
+wait 0.3
+room wh03_sprung s
+wait 0.3
+room wh04_halle s
+wait 0.3
+room wh05_arena1 s
+wait 0.5
+press map
+wait 0.3
+shot map_dungeon1
+press map
+wait 0.3
+status
+quit

@@ -1,0 +1,4 @@
+#pragma once
+
+// Wird von CMake erzeugt. Zeigt im Dev-Build auf den data-Ordner im Quellbaum.
+#define ALDORIA_DEV_DATA_DIR "@CMAKE_SOURCE_DIR@/data"
