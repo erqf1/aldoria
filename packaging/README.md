@@ -21,12 +21,14 @@ pacman-Paket. `pacman -Qi aldoria` zeigt es danach an, `pacman -R aldoria` entfe
 
 ## Debian/Ubuntu — `packaging/debian/build_deb.sh`
 
+Aus dem Checkout oder aus dem Release-Quellpaket (`aldoria-linux-source.tar.gz`) heraus:
+
 ```
 bash packaging/debian/build_deb.sh [Version]
 ```
 
-Baut aus dem Quellcode im Repo (kein Download nötig, läuft im Checkout) und erzeugt `aldoria_<Version>_amd64.deb` per
-`dpkg-deb` direkt in der Repo-Wurzel. Installieren mit `sudo apt install ./aldoria_*.deb`.
+Baut aus dem Quellcode und erzeugt `aldoria_<Version>_amd64.deb` per `dpkg-deb` direkt in der Repo-Wurzel.
+Installieren mit `sudo apt install ./aldoria_*.deb`.
 
 ## Generischer Linux-Build — `build_linux.sh` (Repo-Wurzel)
 

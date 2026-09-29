@@ -12,10 +12,10 @@ Fertige Versionen gibt es bei den [GitHub Releases](https://github.com/erqf1/ald
 - **Windows:** `aldoria-windows.zip` entpacken, `aldoria.exe` starten. Keine Installation nötig.
 - **Linux, Quellcode (tar.gz):** `aldoria-linux-source.tar.gz` entpacken, `bash build_linux.sh` (baut mit CMake, ein paar Minuten,
   braucht Internet beim ersten Mal), dann `bash play.sh`. Läuft auf Arch, Debian/Ubuntu und den meisten anderen Distributionen.
-- **Arch Linux (pacman):** `PKGBUILD` herunterladen, `makepkg -si` im selben Ordner ausführen. Baut aus dem Quellcode dieses
-  Repos und installiert `aldoria` als echtes Paket (`pacman -Qi aldoria` danach sichtbar, `pacman -R aldoria` deinstalliert).
-- **Debian/Ubuntu (.deb):** `aldoria-debian-packaging.tar.gz` entpacken, `bash build_deb.sh` ausführen — baut ein echtes
-  `aldoria_<Version>_amd64.deb` aus dem Quellcode, danach `sudo apt install ./aldoria_*.deb`.
+- **Arch Linux (pacman):** `PKGBUILD` herunterladen, `makepkg -si` im selben Ordner ausführen. Lädt den Quellcode selbst
+  herunter und installiert `aldoria` als echtes Paket (`pacman -Qi aldoria` danach sichtbar, `pacman -R aldoria` deinstalliert).
+- **Debian/Ubuntu (.deb):** dasselbe `aldoria-linux-source.tar.gz` entpacken, darin `bash packaging/debian/build_deb.sh`
+  ausführen — baut ein echtes `aldoria_<Version>_amd64.deb`, danach `sudo apt install ./aldoria_*.deb`.
 
 Für Arch und Debian gibt es (noch) keine vorkompilierten Binärpakete zum Herunterladen, weil dieses Repo unter Windows
 gepflegt wird und kein Linux-Compiler zur Verfügung steht — `PKGBUILD` und `build_deb.sh` bauen stattdessen lokal aus dem

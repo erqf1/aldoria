@@ -10,7 +10,7 @@ depends=('glibc' 'gcc-libs' 'libx11' 'libxrandr' 'libxinerama' 'libxcursor' 'lib
          'libxfixes' 'libxrender' 'mesa' 'libglvnd' 'alsa-lib')
 makedepends=('cmake' 'ninja' 'git')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/erqf1/aldoria/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('e6a5fbc4c33d69dd6c4fcbf6f6ac2ac4c26a4a51e6bc3d1d6e2f7c9a2f8e1a01')
+sha256sums=('348369d53028139cde49f689bc9a42416649fc2d55a59f19e338b3a52cbfd968')
 
 build() {
     cd "$pkgname-$pkgver"
